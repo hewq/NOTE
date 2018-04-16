@@ -6,6 +6,7 @@
 * [EaselJs 绘图流程](https://github.com/hewq/NOTE/blob/master/CreateJs/EaselJs/EaselJs%E7%BB%98%E5%9B%BE%E5%9F%BA%E7%A1%80.md)
 ## NodeJs
 * [Node.js介绍](https://github.com/hewq/NOTE/blob/master/nodejs/nodejs%E4%BB%8B%E7%BB%8D.md)
+* [读取文件](https://github.com/hewq/NOTE/blob/master/nodejs/%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6.md)
 
 ## Photoshop
 
