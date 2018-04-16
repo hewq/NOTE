@@ -8,6 +8,7 @@
 * [Node.js介绍](https://github.com/hewq/NOTE/blob/master/nodejs/nodejs%E4%BB%8B%E7%BB%8D.md)
 * [读取文件](https://github.com/hewq/NOTE/blob/master/nodejs/%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6.md)
 * [写文件](https://github.com/hewq/NOTE/blob/master/nodejs/%20%E5%86%99%E6%96%87%E4%BB%B6.md)
+* [http](https://github.com/hewq/NOTE/blob/master/nodejs/http.md)
 
 ## Photoshop
 
