@@ -1,16 +1,16 @@
 # 笔记目录
-## CreateJs
+## CreateJs(学习资源：网上搜索自学)
 * [CreateJs简介](https://github.com/hewq/NOTE/blob/master/CreateJs/CreateJs%E7%AE%80%E4%BB%8B.md)
 #### 1. EaselJs
 * [EaselJs绘制图片，遮罩，canvas转base64](https://github.com/hewq/NOTE/blob/master/CreateJs/EaselJs/EaselJs%E7%BB%98%E5%88%B6%E5%9B%BE%E7%89%87%EF%BC%8C%E9%81%AE%E7%BD%A9%EF%BC%8Ccanvas%E8%BD%ACbase64.md#easeljs%E7%BB%98%E5%88%B6%E5%9B%BE%E7%89%87%E9%81%AE%E7%BD%A9canvas%E8%BD%ACbase64)
 * [EaselJs 绘图流程](https://github.com/hewq/NOTE/blob/master/CreateJs/EaselJs/EaselJs%E7%BB%98%E5%9B%BE%E5%9F%BA%E7%A1%80.md)
-## NodeJs
+## NodeJs(学习资源：[黑马程序员](itheima.com))
 * [Node.js介绍](https://github.com/hewq/NOTE/blob/master/nodejs/nodejs%E4%BB%8B%E7%BB%8D.md)
 * [读取文件](https://github.com/hewq/NOTE/blob/master/nodejs/%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6.md)
 * [写文件](https://github.com/hewq/NOTE/blob/master/nodejs/%20%E5%86%99%E6%96%87%E4%BB%B6.md)
 * [http](https://github.com/hewq/NOTE/blob/master/nodejs/http.md)
 
-## Photoshop
+## Photoshop(学习资源：[黑马程序员](itheima.com))
 
 * [PS基础](https://github.com/hewq/NOTE/blob/master/Photoshop/PS%E5%9F%BA%E7%A1%80.md)
 
