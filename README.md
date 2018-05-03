@@ -35,6 +35,7 @@
 
 * [管理资源](https://github.com/hewq/NOTE/blob/master/webpack/%E7%AE%A1%E7%90%86%E8%B5%84%E6%BA%90.md)
 * [管理输出](https://github.com/hewq/NOTE/blob/master/webpack/%E7%AE%A1%E7%90%86%E8%BE%93%E5%87%BA.md)
+* [ 开发](https://github.com/hewq/NOTE/blob/master/webpack/%E5%BC%80%E5%8F%91.md)
 
 
 
