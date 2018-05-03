@@ -34,6 +34,7 @@
 ## Webpack (学习资源： [webpack中文网](https://www.webpackjs.com/))
 
 * [管理资源](https://github.com/hewq/NOTE/blob/master/webpack/%E7%AE%A1%E7%90%86%E8%B5%84%E6%BA%90.md)
+* [管理输出](https://github.com/hewq/NOTE/blob/master/webpack/%E7%AE%A1%E7%90%86%E8%BE%93%E5%87%BA.md)
 
 
 
