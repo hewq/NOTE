@@ -1,10 +1,14 @@
 # 笔记目录
+
 ## CreateJs(学习资源：网上搜索自学)
+
 * [CreateJs简介](https://github.com/hewq/NOTE/blob/master/CreateJs/CreateJs%E7%AE%80%E4%BB%8B.md)
-#### 1. EaselJs
+### EaselJs
+
 * [EaselJs绘制图片，遮罩，canvas转base64](https://github.com/hewq/NOTE/blob/master/CreateJs/EaselJs/EaselJs%E7%BB%98%E5%88%B6%E5%9B%BE%E7%89%87%EF%BC%8C%E9%81%AE%E7%BD%A9%EF%BC%8Ccanvas%E8%BD%ACbase64.md#easeljs%E7%BB%98%E5%88%B6%E5%9B%BE%E7%89%87%E9%81%AE%E7%BD%A9canvas%E8%BD%ACbase64)
 * [EaselJs 绘图流程](https://github.com/hewq/NOTE/blob/master/CreateJs/EaselJs/EaselJs%E7%BB%98%E5%9B%BE%E5%9F%BA%E7%A1%80.md)
 ## NodeJs(学习资源：[黑马程序员](itheima.com))
+
 * [Node.js介绍](https://github.com/hewq/NOTE/blob/master/nodejs/nodejs%E4%BB%8B%E7%BB%8D.md)
 * [读取文件](https://github.com/hewq/NOTE/blob/master/nodejs/%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6.md)
 * [写文件](https://github.com/hewq/NOTE/blob/master/nodejs/%20%E5%86%99%E6%96%87%E4%BB%B6.md)
@@ -34,8 +38,14 @@
 ## Webpack (学习资源： [webpack中文网](https://www.webpackjs.com/))
 
 * [管理资源](https://github.com/hewq/NOTE/blob/master/webpack/%E7%AE%A1%E7%90%86%E8%B5%84%E6%BA%90.md)
+
 * [管理输出](https://github.com/hewq/NOTE/blob/master/webpack/%E7%AE%A1%E7%90%86%E8%BE%93%E5%87%BA.md)
+
 * [ 开发](https://github.com/hewq/NOTE/blob/master/webpack/%E5%BC%80%E5%8F%91.md)
+
+* [生产环境构建](https://github.com/hewq/NOTE/blob/master/webpack/%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%9E%84%E5%BB%BA.md)
+
+  
 
 
 
