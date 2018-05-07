@@ -13,6 +13,7 @@
 * [读取文件](https://github.com/hewq/NOTE/blob/master/nodejs/%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6.md)
 * [写文件](https://github.com/hewq/NOTE/blob/master/nodejs/%20%E5%86%99%E6%96%87%E4%BB%B6.md)
 * [http](https://github.com/hewq/NOTE/blob/master/nodejs/http.md)
+* [加载与导出](https://github.com/hewq/NOTE/blob/master/nodejs/%E5%8A%A0%E8%BD%BD%E4%B8%8E%E5%AF%BC%E5%87%BA.md)
 
 ## Photoshop(学习资源：[黑马程序员](itheima.com))
 
