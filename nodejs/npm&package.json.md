@@ -6,7 +6,7 @@
 
 ### npm 网站
 
-- [npmjs.com](npmjs.com)
+- [npmjs.com](https://www.npmjs.com/)
 
 ### npm命令行工具
 
