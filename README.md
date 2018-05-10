@@ -15,6 +15,7 @@
 * [http](https://github.com/hewq/NOTE/blob/master/nodejs/http.md)
 * [加载与导出](https://github.com/hewq/NOTE/blob/master/nodejs/%E5%8A%A0%E8%BD%BD%E4%B8%8E%E5%AF%BC%E5%87%BA.md)
 * [Node中的模块系统](https://github.com/hewq/NOTE/blob/master/nodejs/Node%E4%B8%AD%E7%9A%84%E6%A8%A1%E5%9D%97%E7%B3%BB%E7%BB%9F.md)
+* [npm&package.json](https://github.com/hewq/NOTE/blob/master/nodejs/npm%26package.json.md)
 
 ## Photoshop(学习资源：[黑马程序员](itheima.com))
 
