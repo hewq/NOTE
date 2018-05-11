@@ -27,4 +27,15 @@
   })
   ```
 
+- 使用
+
+  ```javascript
+  app.use(function (req, res) {
+      res.setHeader('Content-Type', 'text/plain');
+      res.write('you posted:\n');
+      // req.body来获取请求体数据
+      res.end(JSON.stringify(req.body, null, 2));
+  })
+  ```
+
   
