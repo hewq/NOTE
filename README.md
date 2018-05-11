@@ -17,6 +17,7 @@
 * [Node中的模块系统](https://github.com/hewq/NOTE/blob/master/nodejs/Node%E4%B8%AD%E7%9A%84%E6%A8%A1%E5%9D%97%E7%B3%BB%E7%BB%9F.md)
 * [npm&package.json](https://github.com/hewq/NOTE/blob/master/nodejs/npm%26package.json.md)
 * [修改完代码自动重启服务器](https://github.com/hewq/NOTE/blob/master/nodejs/%E4%BF%AE%E6%94%B9%E5%AE%8C%E4%BB%A3%E7%A0%81%E8%87%AA%E5%8A%A8%E9%87%8D%E5%90%AF.md)
+* [Express](https://github.com/hewq/NOTE/blob/master/nodejs/Express.md)
 
 ## Photoshop(学习资源：[黑马程序员](itheima.com))
 
