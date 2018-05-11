@@ -18,6 +18,7 @@
 * [npm&package.json](https://github.com/hewq/NOTE/blob/master/nodejs/npm%26package.json.md)
 * [修改完代码自动重启服务器](https://github.com/hewq/NOTE/blob/master/nodejs/%E4%BF%AE%E6%94%B9%E5%AE%8C%E4%BB%A3%E7%A0%81%E8%87%AA%E5%8A%A8%E9%87%8D%E5%90%AF.md)
 * [Express](https://github.com/hewq/NOTE/blob/master/nodejs/Express.md)
+* [在Express中配置使用art-template模板引擎](https://github.com/hewq/NOTE/blob/master/nodejs/%E5%9C%A8express%E4%B8%AD%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8art-template%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E.md)
 
 ## Photoshop(学习资源：[黑马程序员](itheima.com))
 
