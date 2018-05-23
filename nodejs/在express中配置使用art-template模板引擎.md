@@ -16,15 +16,16 @@
 - 使用
 
    ```javascript
-  app.get('/', function (req, res) {
+     app.get('/', function (req, res) {
       // express会默认去项目中的views目录找index.html
       res.render('index.html', {
-  		title: 'hello world'
+   		title: 'hello world'
       });
-  });
-  
-  // 如果希望修改默认的views视图渲染目录，则可以
-  app.set('views', 目录路径);
+     });
    ```
 
-  
+  // 如果希望修改默认的views视图渲染目录，则可以
+   ```Javascript
+    app.set('views', 目录路径);
+   ```
+
