@@ -44,18 +44,21 @@
 ## Summary
 
 * [20180426](https://github.com/hewq/NOTE/blob/master/Summary/20180426.md)
+* [20180521](https://github.com/hewq/NOTE/blob/master/Summary/20180521.md)
 
 ## Webpack (学习资源： [webpack中文网](https://www.webpackjs.com/))
 
 * [管理资源](https://github.com/hewq/NOTE/blob/master/webpack/%E7%AE%A1%E7%90%86%E8%B5%84%E6%BA%90.md)
-
 * [管理输出](https://github.com/hewq/NOTE/blob/master/webpack/%E7%AE%A1%E7%90%86%E8%BE%93%E5%87%BA.md)
-
 * [ 开发](https://github.com/hewq/NOTE/blob/master/webpack/%E5%BC%80%E5%8F%91.md)
-
 * [生产环境构建](https://github.com/hewq/NOTE/blob/master/webpack/%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%9E%84%E5%BB%BA.md)
 
-  
+## English
+
+- 焦糖英语日日读-7期
+  - [20180515](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180515.md)
+
+
 
 
 
