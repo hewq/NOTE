@@ -23,6 +23,7 @@
 * [在express中获取表单请求体数据](https://github.com/hewq/NOTE/blob/master/nodejs/%E5%9C%A8express%E4%B8%AD%E8%8E%B7%E5%8F%96%E8%A1%A8%E5%8D%95get%E8%AF%B7%E6%B1%82%E4%BD%93%E6%95%B0%E6%8D%AE.md)
 * 案例
   * [简单留言本(使用express)](https://github.com/hewq/Front-end/tree/master/JavaScript/nodeJS/_2018/feedback-express)
+  * [简单crud操作（使用express）](https://github.com/hewq/Front-end/tree/master/apps/JavaScript/nodeJS/_2018/crud-express)
 
 ## Photoshop(学习资源：[黑马程序员](itheima.com))
 
