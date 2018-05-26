@@ -58,6 +58,8 @@
 
 - 焦糖英语日日读-7期
   - [20180515](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180515.md)
+  - [20180516](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180516.md)
+  - [20180517](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180517.md)
 
 
 
