@@ -64,6 +64,7 @@
   - [舌尖上的东东西西](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180519.md)
   - [买买买的日常](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180521.md)
   - [衣服穿搭](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180522.md)
+  - [颜值的秘密](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180523.md)
 
 
 
