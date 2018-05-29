@@ -73,6 +73,19 @@ npm istall --global npm
       npm config set registry https://registry.npm.taobao.org
       ```
 
-## package.json
+## package.json和package-lock.json
 
-- 每个项目都要有一个package.json文件（包描述文件），这个文件可以通过npm init的方式自动初始化出来
+### package.json
+
+- 每个项目都要有一个package.json文件（包描述文件），这个文件可以通过npm init的方式自动初始化出来。
+
+### package-lock.json
+
+- npm 5以前是不会有package-lock.json这个文件的，npm 5以后才加入这个文件。
+- 当安装包的时候，npm都会生成或者更新package-lock.json这个文件。
+- npm 5以后的版本安装包的时候不需要--save,它会自动保存依赖信息。
+- package-lock.json这个文件会保存node_mohules中所有包的信息（版本、下载地址），这样的话重新`npm isntall`的时候速度就可以提升。
+- 从文件来看，有一个`lock`锁
+  - 这个`lock`是用来锁定版本的
+  - 如果项目依赖了`1.1.1`版本，重新install其实会下载最新版本，而不是`1.1.1`
+  - 所以这个pageage-lock.json文件的另一个作用就是锁定版本号，防止自动升级新版。
