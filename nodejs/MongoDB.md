@@ -1,5 +1,34 @@
 # MongoDB
 
+## MongoDB数据库的基本概念
+
+- 可以有多个数据库
+
+- 一个数据库中可以有多个集合（表）
+- 一个集合中可以有多个文档（表记录）
+- 文档结构很灵活，没有任何限制
+- MongoDB不需要像MySQL一样先创建数据库、表、设计表结构，当你需要插入数据的时候，只需要指定往哪个数据库的哪个集合操作就可以了，一切都由MongoDB自动完成。
+
+```javascript
+{
+    qq: {
+        users: [
+            {},
+            {},
+            {}
+        ],
+        products: [
+                
+        ]
+    },
+    taobao: {
+
+    }
+}
+```
+
+
+
 ## 关系型数据库和非关系型数据库
 
 > 表，就是关系，
@@ -76,5 +105,7 @@
   > [node-mongodb-native](https://github.com/mongodb/node-mongodb-native)
 
 - 使用第三方`mongoose`来操作MongoDB数据库
+
+  - [mongoose]()
 
   
