@@ -24,6 +24,8 @@
 * 案例
   * [简单留言本(使用express)](https://github.com/hewq/Front-end/tree/master/JavaScript/nodeJS/_2018/feedback-express)
   * [简单crud操作（使用express）](https://github.com/hewq/Front-end/tree/master/apps/JavaScript/nodeJS/_2018/crud-express)
+* [MongoDB](https://github.com/hewq/NOTE/blob/master/nodejs/MongoDB.md)
+* [mongoose](https://github.com/hewq/NOTE/blob/master/nodejs/mongoose.md)
 
 ## Photoshop(学习资源：[黑马程序员](itheima.com))
 
