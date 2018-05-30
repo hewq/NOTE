@@ -75,6 +75,7 @@
   - [漂亮的小姐姐](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180526.md)
   - [“勾搭”的艺术](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180528.md)
   - [大声说爱](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180529.md)
+  - [尬局的正确打开方式](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180530.md)
 
 
 
