@@ -27,6 +27,7 @@
   * [简单crud操作(使用express，mongodb)](https://github.com/hewq/Front-end/tree/master/apps/JavaScript/nodeJS/_2018/crud-express-mongodb)
 * [MongoDB](https://github.com/hewq/NOTE/blob/master/nodejs/MongoDB.md)
 * [mongoose](https://github.com/hewq/NOTE/blob/master/nodejs/mongoose.md)
+* [使用node操作mysql](https://github.com/hewq/NOTE/blob/master/nodejs/%E4%BD%BF%E7%94%A8node%E6%93%8D%E4%BD%9Cmysql.md)
 
 ## Photoshop(学习资源：[黑马程序员](itheima.com))
 
