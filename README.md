@@ -29,6 +29,7 @@
 * [mongoose](https://github.com/hewq/NOTE/blob/master/nodejs/mongoose.md)
 * [使用node操作mysql](https://github.com/hewq/NOTE/blob/master/nodejs/%E4%BD%BF%E7%94%A8node%E6%93%8D%E4%BD%9Cmysql.md)
 * [Promise](https://github.com/hewq/NOTE/blob/master/nodejs/Promise.md)
+* [path路径操作模块](https://github.com/hewq/NOTE/blob/master/nodejs/path%E8%B7%AF%E5%BE%84%E6%93%8D%E4%BD%9C%E6%A8%A1%E5%9D%97.md)
 
 ## Photoshop(学习资源：[黑马程序员](itheima.com))
 
