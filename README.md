@@ -31,6 +31,7 @@
 * [Promise](https://github.com/hewq/NOTE/blob/master/nodejs/Promise.md)
 * [path 路径操作模块](https://github.com/hewq/NOTE/blob/master/nodejs/path%E8%B7%AF%E5%BE%84%E6%93%8D%E4%BD%9C%E6%A8%A1%E5%9D%97.md)
 * [node 中的其他成员](https://github.com/hewq/NOTE/blob/master/nodejs/node%E4%B8%AD%E7%9A%84%E5%85%B6%E4%BB%96%E6%88%90%E5%91%98.md)
+* [中间件](https://github.com/hewq/NOTE/blob/master/nodejs/%E4%B8%AD%E9%97%B4%E4%BB%B6.md)
 
 ## Photoshop(学习资源：[黑马程序员](itheima.com))
 
