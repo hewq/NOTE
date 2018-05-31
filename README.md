@@ -2,34 +2,35 @@
 
 ## CreateJs
 
-* [CreateJs简介](https://github.com/hewq/NOTE/blob/master/CreateJs/CreateJs%E7%AE%80%E4%BB%8B.md)
+* [CreateJs 简介](https://github.com/hewq/NOTE/blob/master/CreateJs/CreateJs%E7%AE%80%E4%BB%8B.md)
 ### EaselJs
 
-* [EaselJs绘制图片，遮罩，canvas转base64](https://github.com/hewq/NOTE/blob/master/CreateJs/EaselJs/EaselJs%E7%BB%98%E5%88%B6%E5%9B%BE%E7%89%87%EF%BC%8C%E9%81%AE%E7%BD%A9%EF%BC%8Ccanvas%E8%BD%ACbase64.md#easeljs%E7%BB%98%E5%88%B6%E5%9B%BE%E7%89%87%E9%81%AE%E7%BD%A9canvas%E8%BD%ACbase64)
+* [EaselJs 绘制图片、遮罩、canvas 转 base64](https://github.com/hewq/NOTE/blob/master/CreateJs/EaselJs/EaselJs%E7%BB%98%E5%88%B6%E5%9B%BE%E7%89%87%EF%BC%8C%E9%81%AE%E7%BD%A9%EF%BC%8Ccanvas%E8%BD%ACbase64.md#easeljs%E7%BB%98%E5%88%B6%E5%9B%BE%E7%89%87%E9%81%AE%E7%BD%A9canvas%E8%BD%ACbase64)
 * [EaselJs 绘图流程](https://github.com/hewq/NOTE/blob/master/CreateJs/EaselJs/EaselJs%E7%BB%98%E5%9B%BE%E5%9F%BA%E7%A1%80.md)
 ## NodeJs(学习资源：[黑马程序员](itheima.com))
 
-* [Node.js介绍](https://github.com/hewq/NOTE/blob/master/nodejs/nodejs%E4%BB%8B%E7%BB%8D.md)
+* [Node.js 介绍](https://github.com/hewq/NOTE/blob/master/nodejs/nodejs%E4%BB%8B%E7%BB%8D.md)
 * [读取文件](https://github.com/hewq/NOTE/blob/master/nodejs/%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6.md)
 * [写文件](https://github.com/hewq/NOTE/blob/master/nodejs/%20%E5%86%99%E6%96%87%E4%BB%B6.md)
 * [http](https://github.com/hewq/NOTE/blob/master/nodejs/http.md)
 * [加载与导出](https://github.com/hewq/NOTE/blob/master/nodejs/%E5%8A%A0%E8%BD%BD%E4%B8%8E%E5%AF%BC%E5%87%BA.md)
-* [Node中的模块系统](https://github.com/hewq/NOTE/blob/master/nodejs/Node%E4%B8%AD%E7%9A%84%E6%A8%A1%E5%9D%97%E7%B3%BB%E7%BB%9F.md)
+* [Node 中的模块系统](https://github.com/hewq/NOTE/blob/master/nodejs/Node%E4%B8%AD%E7%9A%84%E6%A8%A1%E5%9D%97%E7%B3%BB%E7%BB%9F.md)
 * [npm&package.json](https://github.com/hewq/NOTE/blob/master/nodejs/npm%26package.json.md)
 * [修改完代码自动重启服务器](https://github.com/hewq/NOTE/blob/master/nodejs/%E4%BF%AE%E6%94%B9%E5%AE%8C%E4%BB%A3%E7%A0%81%E8%87%AA%E5%8A%A8%E9%87%8D%E5%90%AF.md)
 * [Express](https://github.com/hewq/NOTE/blob/master/nodejs/Express.md)
-* [在Express中配置使用art-template模板引擎](https://github.com/hewq/NOTE/blob/master/nodejs/%E5%9C%A8express%E4%B8%AD%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8art-template%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E.md)
-* [在Express中获取表单post请求体数据](https://github.com/hewq/NOTE/blob/master/nodejs/%E5%9C%A8Express%E4%B8%AD%E8%8E%B7%E5%8F%96%E8%A1%A8%E5%8D%95POST%E8%AF%B7%E6%B1%82%E4%BD%93%E6%95%B0%E6%8D%AE.md)
-* [在express中获取表单请求体数据](https://github.com/hewq/NOTE/blob/master/nodejs/%E5%9C%A8express%E4%B8%AD%E8%8E%B7%E5%8F%96%E8%A1%A8%E5%8D%95get%E8%AF%B7%E6%B1%82%E4%BD%93%E6%95%B0%E6%8D%AE.md)
+* [在 Express 中配置使用 art-template 模板引擎](https://github.com/hewq/NOTE/blob/master/nodejs/%E5%9C%A8express%E4%B8%AD%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8art-template%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E.md)
+* [在 Express 中获取表单post请求体数据](https://github.com/hewq/NOTE/blob/master/nodejs/%E5%9C%A8Express%E4%B8%AD%E8%8E%B7%E5%8F%96%E8%A1%A8%E5%8D%95POST%E8%AF%B7%E6%B1%82%E4%BD%93%E6%95%B0%E6%8D%AE.md)
+* [在 express 中获取表单请求体数据](https://github.com/hewq/NOTE/blob/master/nodejs/%E5%9C%A8express%E4%B8%AD%E8%8E%B7%E5%8F%96%E8%A1%A8%E5%8D%95get%E8%AF%B7%E6%B1%82%E4%BD%93%E6%95%B0%E6%8D%AE.md)
 * 案例
-  * [简单留言本(使用express)](https://github.com/hewq/Front-end/tree/master/JavaScript/nodeJS/_2018/feedback-express)
-  * [简单crud操作(使用express)](https://github.com/hewq/Front-end/tree/master/apps/JavaScript/nodeJS/_2018/crud-express)
-  * [简单crud操作(使用express，mongodb)](https://github.com/hewq/Front-end/tree/master/apps/JavaScript/nodeJS/_2018/crud-express-mongodb)
+  * [简单留言本(使用 express)](https://github.com/hewq/Front-end/tree/master/JavaScript/nodeJS/_2018/feedback-express)
+  * [简单 crud 操作(使用 express)](https://github.com/hewq/Front-end/tree/master/apps/JavaScript/nodeJS/_2018/crud-express)
+  * [简单 crud 操作(使用 express、mongodb)](https://github.com/hewq/Front-end/tree/master/apps/JavaScript/nodeJS/_2018/crud-express-mongodb)
 * [MongoDB](https://github.com/hewq/NOTE/blob/master/nodejs/MongoDB.md)
 * [mongoose](https://github.com/hewq/NOTE/blob/master/nodejs/mongoose.md)
-* [使用node操作mysql](https://github.com/hewq/NOTE/blob/master/nodejs/%E4%BD%BF%E7%94%A8node%E6%93%8D%E4%BD%9Cmysql.md)
+* [使用 node 操作 mysql](https://github.com/hewq/NOTE/blob/master/nodejs/%E4%BD%BF%E7%94%A8node%E6%93%8D%E4%BD%9Cmysql.md)
 * [Promise](https://github.com/hewq/NOTE/blob/master/nodejs/Promise.md)
-* [path路径操作模块](https://github.com/hewq/NOTE/blob/master/nodejs/path%E8%B7%AF%E5%BE%84%E6%93%8D%E4%BD%9C%E6%A8%A1%E5%9D%97.md)
+* [path 路径操作模块](https://github.com/hewq/NOTE/blob/master/nodejs/path%E8%B7%AF%E5%BE%84%E6%93%8D%E4%BD%9C%E6%A8%A1%E5%9D%97.md)
+* [node 中的其他成员](https://github.com/hewq/NOTE/blob/master/nodejs/node%E4%B8%AD%E7%9A%84%E5%85%B6%E4%BB%96%E6%88%90%E5%91%98.md)
 
 ## Photoshop(学习资源：[黑马程序员](itheima.com))
 
