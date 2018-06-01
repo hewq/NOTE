@@ -62,6 +62,10 @@
 * [ 开发](https://github.com/hewq/NOTE/blob/master/webpack/%E5%BC%80%E5%8F%91.md)
 * [生产环境构建](https://github.com/hewq/NOTE/blob/master/webpack/%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%9E%84%E5%BB%BA.md)
 
+## Mini Program
+
+- [微信小程序代码构成](https://github.com/hewq/NOTE/blob/master/miniprograms/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%A0%81%E6%9E%84%E6%88%90.md)
+
 ## English
 
 - 焦糖英语日日读-7期
