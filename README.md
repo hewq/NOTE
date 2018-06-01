@@ -65,6 +65,7 @@
 ## Mini Program
 
 - [微信小程序代码构成](https://github.com/hewq/NOTE/blob/master/miniprograms/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%A0%81%E6%9E%84%E6%88%90.md)
+- [小程序能力](https://github.com/hewq/NOTE/blob/master/miniprograms/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%83%BD%E5%8A%9B.md)
 
 ## English
 
