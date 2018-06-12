@@ -68,7 +68,7 @@
 - [小程序能力](https://github.com/hewq/NOTE/blob/master/miniprograms/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%83%BD%E5%8A%9B.md)
 - [helloworld](https://github.com/hewq/NOTE/blob/master/miniprograms/helloworld.md)
 - 组件
-  - [视图容器]()
+  - [视图容器](https://github.com/hewq/NOTE/blob/master/miniprograms/%E8%A7%86%E5%9B%BE%E5%AE%B9%E5%99%A8.md)
 
 ## English
 
