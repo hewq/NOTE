@@ -69,6 +69,7 @@
 - [helloworld](https://github.com/hewq/NOTE/blob/master/miniprograms/helloworld.md)
 - 组件
   - [视图容器](https://github.com/hewq/NOTE/blob/master/miniprograms/%E8%A7%86%E5%9B%BE%E5%AE%B9%E5%99%A8.md)
+  - [基础内容](https://github.com/hewq/NOTE/blob/master/miniprograms/%E5%9F%BA%E7%A1%80%E5%86%85%E5%AE%B9.md)
 
 ## English
 
