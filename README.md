@@ -72,6 +72,9 @@
 - 组件
   - [视图容器](https://github.com/hewq/NOTE/blob/master/miniprograms/%E8%A7%86%E5%9B%BE%E5%AE%B9%E5%99%A8.md)
   - [基础内容](https://github.com/hewq/NOTE/blob/master/miniprograms/%E5%9F%BA%E7%A1%80%E5%86%85%E5%AE%B9.md)
+  - [表单组件](https://github.com/hewq/NOTE/blob/master/miniprograms/%E8%A1%A8%E5%8D%95%E7%BB%84%E4%BB%B6.md)
+  - [导航](https://github.com/hewq/NOTE/blob/master/miniprograms/%E5%AF%BC%E8%88%AA.md)
+  - [媒体组件](https://github.com/hewq/NOTE/blob/master/miniprograms/%E5%AA%92%E4%BD%93%E7%BB%84%E4%BB%B6.md)
 
 ## English
 
