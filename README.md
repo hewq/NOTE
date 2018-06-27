@@ -52,8 +52,8 @@
 
 ## Summary
 
-* [20180426](https://github.com/hewq/NOTE/blob/master/Summary/20180426.md)
-* [20180521](https://github.com/hewq/NOTE/blob/master/Summary/20180521.md)
+* [20180426](https://github.com/hewq/NOTE/blob/master/summary/20180426.md)
+* [20180521](https://github.com/hewq/NOTE/blob/master/summary/20180521.md)
 * [20180614](https://github.com/hewq/NOTE/blob/master/summary/20180614.md)
 * [20180627](https://github.com/hewq/NOTE/blob/master/summary/20180627.md)
 
