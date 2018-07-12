@@ -75,6 +75,7 @@
   - [表单组件](https://github.com/hewq/NOTE/blob/master/miniprograms/%E8%A1%A8%E5%8D%95%E7%BB%84%E4%BB%B6.md)
   - [导航](https://github.com/hewq/NOTE/blob/master/miniprograms/%E5%AF%BC%E8%88%AA.md)
   - [媒体组件](https://github.com/hewq/NOTE/blob/master/miniprograms/%E5%AA%92%E4%BD%93%E7%BB%84%E4%BB%B6.md)
+- [案例](https://github.com/hewq/NOTE/blob/master/miniprograms/%E6%A1%88%E4%BE%8B.md)
 
 ## English
 
