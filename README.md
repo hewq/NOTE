@@ -77,6 +77,10 @@
   - [媒体组件](https://github.com/hewq/NOTE/blob/master/miniprograms/%E5%AA%92%E4%BD%93%E7%BB%84%E4%BB%B6.md)
 - [案例](https://github.com/hewq/NOTE/blob/master/miniprograms/%E6%A1%88%E4%BE%8B.md)
 
+## H5动画与游戏开发
+
+[概述--Canvas、SVG、WebGL](https://github.com/hewq/NOTE/blob/master/H5%E5%8A%A8%E7%94%BB%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E6%A6%82%E8%BF%B0--Canvas%E3%80%81SVG%E3%80%81WebGL.md)
+
 ## English
 
 - 焦糖英语日日读-7期
