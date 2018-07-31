@@ -185,3 +185,186 @@
   ```
 
 [demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_08.html)
+
+## Canvas 图案描边及填充
+
+- 描边及填充的类型
+
+  - 纯色（不同设置方式）
+  - 渐变色（线性渐变、径向渐变）
+  - 图案样式（图片、视频、 Canvas元素节点）
+
+- 纯色描边及填充颜色设置（String 类型）
+
+  - #ffffff、#642
+  - rgb(255, 128, 0)、rgba(100, 100, 100, 0.8)
+  - hsl(20, 62%, 28%)、H:Hue 色相 S: Saturation 饱和度 L Lightness 明度
+  - red、yellow、blue
+
+- 线性渐变色描边及填充案例
+
+  ```javascript
+  // 线性渐变
+  var grd = context.createLinearGradient(xstart, ystart, xend, yend);
+  grd.addColorStop(stop1, color1);
+  grd.addColorStop(stop2, color2);
+  context.fillStyle = grd;
+  ```
+
+  ```javascript
+  // 径向渐变
+  var grd = context.createRadialGraient(x0, y0, r0, x1, y, r1);
+  grd.addColorStop(stop1, color1);
+  grd.addColorStop(stop2, color2);
+  context.fillStyle = grd;
+  ```
+
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_09.html)
+
+- 图案描边及填充
+
+  ```javascript
+  var pattern = context.createPattern(image | video, repeat-style)
+  var pattern = context.createPattern(canvas, repeat-style)
+  ```
+
+- 图案描边及填充重复样式（repeat-style）
+
+  - no-repeat（不重复） repeat（重复）
+  - repeat-x（x轴重复） repeat-y（y轴重复）
+
+- 设置填充样式（图案）
+
+  - context.fillStyle = pattern;
+  - Context.strokeStyle = pattern;
+
+- 图案描边及填充（使用图片填充案例）
+
+  ```javascript
+  var canvas = document.getElementById('canvas');
+  var context = canvas.getContext('2d');
+  
+  var img = new Image();
+  img.src = './images/fill_20x20.gif';
+  img.onload = function () {
+      var pattern = context.createPattern(img, 'repeat');
+      context.fillStyle = pattern;
+      context.fillRect(0, 0, 400, 400);
+  }
+  ```
+
+- 图案描边及填充（使用 Canvas 填充案例）
+
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_10.html)
+
+## Canvas 阴影设置
+
+- 阴影设置参数
+  - context.shadowColor
+  - Context.shadowOffSetX
+  - context.shadowOffSetY
+  - context.shadowBlur
+
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_11.html)
+
+## Canvas 图像合成
+
+- 全局透明度
+  - context.globalAlpha = 1; // (default)
+- 全局图像混合设置
+  - context.globalCompositeOperation = 'source-over'; // (default)
+- 图像混合类型
+  - source-over、source-atop、source-in、source-out 
+  - destination-over、destination-atop、destination-in、destination-out
+  - lighter、copy、xor
+
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_12.html)
+
+## Canvas 坐标系变换
+
+- 平移（translate）
+
+  - context.translate(x, y);
+
+- 旋转（rotate）
+
+  - context.rotate(deg);
+
+- 缩放（scale）
+
+  - context.scale(sx, sy);
+
+- 矩阵变换（transform）
+
+  - a 水平缩放（1）
+  - b 水平倾斜（0）
+  - c  垂直倾斜（0）
+  - d 垂直缩放（1）
+  - e 水平位移（0）
+  - f 垂直位移（0）
+
+  ![](./transform.png)
+
+- 矩阵变换方法
+
+  - transform(a, b, c, d, e, f) 是对当前坐标系进行变换，
+  - setTransform(a, b, c, d, e, f) 是对默认坐标系进行变换，忽略之前的级联变换
+
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_13.html)
+
+## Canvas 文本
+
+- 文字渲染基础
+  - context.font = 'bold 40px Arial';
+  - context.fillText(string, x, y, [maxlen]);
+  - context.strokeText(string, x, y, [maxlen]);
+- 字体（font）设置综述
+  - font-style（normal 默认、italic 斜体、oblique 倾斜）
+  - font-variant（normal、small-caps）
+  - font-weight（lighter、normal 默认、bord、bolder）
+  - font-size（20px、2em、150%）
+  - font-family（多种字体备选以逗号分割、Web安全字体）
+
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_14.html)
+
+- 文本水平对齐
+  - context.textAlign = left | center | right
+- 文本垂直对齐
+  - context.textBaseline = top | middle | bottom
+  - context.textBaseline = alphabetic（default） | ideographic（汉字等方块字体）
+- 文本度量
+  - context.measureText(string).width
+
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_15.html)
+
+## Canvas 剪切
+
+- Canvas 剪切方法与剪切路径
+  - 绘制路径后使用 context.clip() 剪切
+  - 剪切后，新绘制的图形将限定在此剪切区域
+- 剪切与状态的关系
+  - 有时可能需要取消或者新定义裁切区
+  - 构建剪切区前可先保存状态（save）
+  - 存储后，再绘制的图形将限定在裁剪区域内
+  - 完成剪切区内的绘制后可进行状态恢复（restore）
+- 非零环绕原则
+
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_16.html)
+
+## Canvas 交互
+
+- Canvas 交互检查方法
+
+  ```javascript
+   context.isPointInPath(x, y);
+   context.isPointInPath(path, x, y);
+   context.isPointInStroke(x, y);
+   context.isPointInStroke(path, x, y);
+  // 鼠标点击的位置，注意坐标补偿
+   var x = e.clientX - theCanvas.getBoundingClientRect().left;
+   var y = e.clientY - theCanvas.getBoundingClientRect().top;
+  
+  ```
+
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_17.html)
+
