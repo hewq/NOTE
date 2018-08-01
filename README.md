@@ -81,6 +81,7 @@
 
 - [概述--Canvas、SVG、WebGL](https://github.com/hewq/NOTE/blob/master/H5%E5%8A%A8%E7%94%BB%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E6%A6%82%E8%BF%B0--Canvas%E3%80%81SVG%E3%80%81WebGL.md)
 - [H5Canvas基础](https://github.com/hewq/NOTE/blob/master/H5%E5%8A%A8%E7%94%BB%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/H5Canvas%E5%9F%BA%E7%A1%80.md)
+- [H5Canvas图像操作](https://github.com/hewq/NOTE/blob/master/H5%E5%8A%A8%E7%94%BB%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/H5Canvas%E5%9B%BE%E5%83%8F%E6%93%8D%E4%BD%9C.md)
 
 ## English
 
