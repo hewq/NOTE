@@ -35,4 +35,26 @@
   cancelAnimationFrame(animHandle);
   ```
 
-  
+[demo1](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch04/LS04/LS04_01.html)
+
+[demo2](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch04/LS04/LS04_02.html)
+
+- [帧动画](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch04/LS04/LS04_03.html)
+
+## 重力与碰撞
+
+- 实现重力加速度
+  - F = ma = mg
+  - 标准重力加速度：9.80665 m/s^2
+
+[demo1](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch04/LS04/LS04_04.html)
+
+[demo2](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch04/LS04/LS04_05.html)
+
+- 物体碰撞的实现
+  - 平面碰撞（角度、速度）
+  - 物理引擎（box2d）
+
+[demo1](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch04/LS04/LS04_06.html)
+
+[demo2](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch04/LS04/LS04_07.html)
