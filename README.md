@@ -83,6 +83,8 @@
 - [H5Canvas基础](https://github.com/hewq/NOTE/blob/master/H5%E5%8A%A8%E7%94%BB%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/H5Canvas%E5%9F%BA%E7%A1%80.md)
 - [H5Canvas图像操作](https://github.com/hewq/NOTE/blob/master/H5%E5%8A%A8%E7%94%BB%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/H5Canvas%E5%9B%BE%E5%83%8F%E6%93%8D%E4%BD%9C.md)
 - [H5Canvas动画](https://github.com/hewq/NOTE/blob/master/H5%E5%8A%A8%E7%94%BB%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/H5Canvas%E5%8A%A8%E7%94%BB.md)
+- Cocos2d-JS 游戏开发
+  - [引擎简介及环境搭建](https://github.com/hewq/NOTE/blob/master/H5%E5%8A%A8%E7%94%BB%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E5%BC%95%E6%93%8E%E7%AE%80%E4%BB%8B%E5%8F%8A%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
 
 ## English
 
