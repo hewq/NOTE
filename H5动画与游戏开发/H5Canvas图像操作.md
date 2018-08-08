@@ -16,15 +16,15 @@
   - HTMLCanvasElement（Canvas 元素）
   - HTMLVideoElement（视频）
 
-  [demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch03/LS03/LS03_01.html)
+  [demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch03/LS03/LS03_01.html)
 
-- [context 绘制图像案例（缩放）](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch03/LS03/LS03_02.html)
+- [context 绘制图像案例（缩放）](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch03/LS03/LS03_02.html)
 
-- [离屏 Canvas 案例（实现离屏水印效果）](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch03/LS03/LS03_03.html)
+- [离屏 Canvas 案例（实现离屏水印效果）](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch03/LS03/LS03_03.html)
 
   ![](./ch03_03.png)
 
-- [交互 Canvas 案例（实现放大镜效果）](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch03/LS03/LS03_04.html)
+- [交互 Canvas 案例（实现放大镜效果）](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch03/LS03/LS03_04.html)
 
   ![](./ch03_04.png)
 
@@ -50,6 +50,6 @@
   context.createImageData(imageData);
   ```
 
-[demo1](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch03/LS03/LS03_05.html)
+[demo1](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch03/LS03/LS03_05.html)
 
-[demo2](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch03/LS03/LS03_06.html)
+[demo2](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch03/LS03/LS03_06.html)

@@ -6,7 +6,7 @@
 - Canvas 提供了相应的 API，通过 js 脚本来完成相应的图形、图像及动画操作（用程序来`绘画、图像处理和生成动画`） 
 - Canvas 是`基于状态`绘图，采用`即时模式（immediate mode）`进行`位图`的绘制和操作
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch01/LS01/LS01_01.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch01/LS01/LS01_01.html)
 
 ## SVG 概述
 
@@ -23,7 +23,7 @@
 - SVG 图像文件尺寸更小（节省空间），可压缩性更强
 - SVG 是开放的标准
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch01/LS01/LS01_02.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch01/LS01/LS01_02.html)
 
 ## Canvas 与 SVG 对比
 
@@ -55,7 +55,7 @@
 - WebGL 是一种 3D 绘图标准，这种绘图技术标准允许把 ` JavaScript 和 OpenGL ES` 结合在一起，通过增加 OpenGL ES 的一个 JavaScript 绑定，WebGL 即可以为 HTML5 Canvas 提供硬件 3D 加速渲染，这样 Web 开发人员就可以借助系统显卡来在浏览器里更流畅地`展示 3D 场景和模型` 了，还能创建复杂的`导航和数据视觉化`。WebGL 技术标准免去了开发网页专用渲染插件的麻烦，可被用与创建具有复杂 3D 结构的网站页面，甚至可以用来设计 3D 网页游戏等等
 - WebGL 完美地解决了现有的 Web 交互式三维动画的两个问题：第一，它通过 HTML 脚本本身实现 Web 交互式三维动画的制作，`无需任何浏览器插件支持` ；第二，它利用底层的图形硬件加速功能进行的图形渲染，是通过` 统一的、标准的、跨平台的 OpenGL 接口` 实现的
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch01/LS01/LS01_03.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch01/LS01/LS01_03.html)
 
 ## 图形引擎概述
 

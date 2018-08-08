@@ -47,7 +47,7 @@
 
 - Canvas 元素大小和绘制表面大小不一致时，会产生`拉伸现象`。
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_01.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_01.html)
 
 ## Canvas 图形上下文（context）
 
@@ -60,7 +60,7 @@
   - context 的构造器（constructor）为 CanvasRenderingContext2D
   - context 对象的原型为 CanvasRenderingContext2D.prototype
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_02.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_02.html)
 
 ## Canvas 图形上下文的状态存储
 
@@ -80,7 +80,7 @@
   context.fillRect(100, 100, 100, 100);
   ```
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_03.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_03.html)
 
 ## Canvas 图形及路径
 
@@ -111,7 +111,7 @@
 
 - beginPath 和 closePath 的作用不同，并不是必须成对出现
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_04.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_04.html)
 
 - 线宽及颜色样式
   - lineWidth、strokeStyle、fillStyle
@@ -122,7 +122,7 @@
   - miter(default)、 bevel、round
 - 样式与上下文状态（context status）
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_05.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_05.html)
 
 - Canvas 曲线相关绘制（绘制弧）
 
@@ -130,7 +130,7 @@
 
     ![](./arc.png)
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_06.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_06.html)
 
 - Canvas 曲线相关绘制（绘制二次曲线）
 
@@ -144,7 +144,7 @@
 
   context.bezierCurveTo(x1, y1, x2, y2, x3, y3);  // x1, y1: 控制点；x2, y2: 控制点； x3, y3: 结束点
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_07.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_07.html)
 
 ## Canvas 绘制基本形状
 
@@ -184,7 +184,7 @@
   }
   ```
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_08.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_08.html)
 
 ## Canvas 图案描边及填充
 
@@ -219,7 +219,7 @@
   context.fillStyle = grd;
   ```
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_09.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_09.html)
 
 - 图案描边及填充
 
@@ -255,7 +255,7 @@
 
 - 图案描边及填充（使用 Canvas 填充案例）
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_10.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_10.html)
 
 ## Canvas 阴影设置
 
@@ -265,7 +265,7 @@
   - context.shadowOffSetY
   - context.shadowBlur
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_11.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_11.html)
 
 ## Canvas 图像合成
 
@@ -278,7 +278,7 @@
   - destination-over、destination-atop、destination-in、destination-out
   - lighter、copy、xor
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_12.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_12.html)
 
 ## Canvas 坐标系变换
 
@@ -310,7 +310,7 @@
   - transform(a, b, c, d, e, f) 是对当前坐标系进行变换，
   - setTransform(a, b, c, d, e, f) 是对默认坐标系进行变换，忽略之前的级联变换
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_13.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_13.html)
 
 ## Canvas 文本
 
@@ -325,7 +325,7 @@
   - font-size（20px、2em、150%）
   - font-family（多种字体备选以逗号分割、Web安全字体）
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_14.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_14.html)
 
 - 文本水平对齐
   - context.textAlign = left | center | right
@@ -335,7 +335,7 @@
 - 文本度量
   - context.measureText(string).width
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_15.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_15.html)
 
 ## Canvas 剪切
 
@@ -349,7 +349,7 @@
   - 完成剪切区内的绘制后可进行状态恢复（restore）
 - 非零环绕原则
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_16.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_16.html)
 
 ## Canvas 交互
 
@@ -366,5 +366,5 @@
   
   ```
 
-[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/ch02/LS02/LS02_17.html)
+[demo](https://github.com/hewq/course-H5-Animation-and-Game-Development/blob/master/apps/ch02/LS02/LS02_17.html)
 
