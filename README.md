@@ -88,6 +88,7 @@
   - [工程结构及核心概念](https://github.com/hewq/NOTE/blob/master/H5%E5%8A%A8%E7%94%BB%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B%E7%BB%93%E6%9E%84%E5%8F%8A%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5.md)
   - [标签与菜单](https://github.com/hewq/NOTE/blob/master/H5%E5%8A%A8%E7%94%BB%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E6%A0%87%E7%AD%BE%E4%B8%8E%E8%8F%9C%E5%8D%95.md)
   - [层、场景、导演](https://github.com/hewq/NOTE/blob/master/H5%E5%8A%A8%E7%94%BB%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E5%B1%82%E3%80%81%E5%9C%BA%E6%99%AF%E3%80%81%E5%AF%BC%E6%BC%94.md)
+  - [精灵](https://github.com/hewq/NOTE/blob/master/H5%E5%8A%A8%E7%94%BB%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E7%B2%BE%E7%81%B5.md)
 
 ## English
 
