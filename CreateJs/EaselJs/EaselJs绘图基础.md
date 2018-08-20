@@ -22,5 +22,5 @@ stage.addChild( rect );
 
 stage.update();
 
-[demo](https://github.com/hewq/Front-end/blob/master/JavaScript/CreateJs/EaselJs/EaselJs%E7%BB%98%E5%9B%BE%E5%9F%BA%E7%A1%80/assets/index.html)
+[demo](https://github.com/hewq/Front-end/tree/master/apps/JavaScript/CreateJs/EaselJs/EaselJs%E7%BB%98%E5%9B%BE%E5%9F%BA%E7%A1%80/assets/index.html)
 

@@ -4,8 +4,8 @@
 
 - readFile
 
-  [Demo](https://github.com/hewq/Front-end/blob/master/apps/JavaScript/nodeJS/_2018/promise-demo/demo1.js)
+  [Demo](https://github.com/hewq/Front-end/tree/master/apps/JavaScript/nodeJS/_2018/promise-demo/demo1.js)
 
 - 封装Promise的readFile
 
-  [Demo](https://github.com/hewq/Front-end/blob/master/apps/JavaScript/nodeJS/_2018/promise-demo/demo2.js)
+  [Demo](https://github.com/hewq/Front-end/tree/master/apps/JavaScript/nodeJS/_2018/promise-demo/demo2.js)

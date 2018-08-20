@@ -39,5 +39,5 @@
 
    ​
 
-[Demo](https://github.com/hewq/Front-end/blob/master/JavaScript/CreateJs/EaselJs/EaselJs%E7%BB%98%E5%88%B6%E5%9B%BE%E7%89%87/assets/index.html)
+[Demo](https://github.com/hewq/Front-end/tree/master/apps/JavaScript/CreateJs/EaselJs/EaselJs%E7%BB%98%E5%88%B6%E5%9B%BE%E7%89%87/assets/index.html)
 
