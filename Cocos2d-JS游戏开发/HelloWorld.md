@@ -2,7 +2,9 @@
 
 ## Cocos Console
 
-	`Cocos Console` 是 Cocos2d-x 引擎下的一个命令行工具，它用来管理 Cocos 工程，其中包含**创建、运行、编译、调试以及打包项目等**。
+​	`Cocos Console` 是 Cocos2d-x 引擎下的一个命令行工具，
+
+它用来管理 Cocos 工程，其中包含**创建、运行、编译、调试以及打包项目等**。
 
  	Cocos Console 位于引擎包 cocos2d-x/tools/cocos2d-console 目录下，通过运行引擎包目录下的 setup.py 脚本即可安装。
 
