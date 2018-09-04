@@ -101,6 +101,7 @@
 ## Cocos2d-JS 游戏开发
 
 - [Cocos2d-JS 介绍](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/Cocos2d-JS%E4%BB%8B%E7%BB%8D.md)
+- [HelloWorld](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/HelloWorld.md)
 
 ## English
 
