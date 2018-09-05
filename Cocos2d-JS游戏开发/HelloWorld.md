@@ -2,7 +2,7 @@
 
 ## Cocos Console
 
-	`Cocos Console` 是 Cocos2d-x 引擎下的一个命令行工具，
+`Cocos Console` 是 Cocos2d-x 引擎下的一个命令行工具，
 
 它用来管理 Cocos 工程，其中包含**创建、运行、编译、调试以及打包项目等**。
 
@@ -235,9 +235,9 @@ iOS 和 Mac OS X 上的工程文件用起来比较简单，在安装了 Xcode �
 
 ### web 部署
 
-​	根据开发者的需求， web 项目的部署也可能完全不同。这里我们以模拟局域网为例，讲解如何使用 XAMPP 在局域网上部署 Cocos2d-JS Web 项目，这样可以方便开发者在开发过程中通过真机测试。
+	根据开发者的需求， web 项目的部署也可能完全不同。这里我们以模拟局域网为例，讲解如何使用 XAMPP 在局域网上部署 Cocos2d-JS Web 项目，这样可以方便开发者在开发过程中通过真机测试。
 
-​	XAMPP 是一款集成了 Cross-PlatForm(X)、Apache、MySQL、PHP 以及 Perl 的软件，安装完成后，便可以在个人电脑上搭建服务器环境。XAMPP 是多平台软件，所以它支持 Mac OS X、Windows、Linux 等操作系统。其安装步骤较为简单，下载完安装包之后，直接双击打开，然后一直 next 直到安装完毕即可。该软件的下载地址：[https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html) 。
+	XAMPP 是一款集成了 Cross-PlatForm(X)、Apache、MySQL、PHP 以及 Perl 的软件，安装完成后，便可以在个人电脑上搭建服务器环境。XAMPP 是多平台软件，所以它支持 Mac OS X、Windows、Linux 等操作系统。其安装步骤较为简单，下载完安装包之后，直接双击打开，然后一直 next 直到安装完毕即可。该软件的下载地址：[https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html) 。
 
 > 实际上，在终端调用命令 `python -m SimpleHTTPServer` ，也可以直接快速搭建 web 服务器
 >
@@ -249,10 +249,10 @@ iOS 和 Mac OS X 上的工程文件用起来比较简单，在安装了 Xcode �
 >
 > 其中，8080 为指定端口，可省略，默认为 8080 。
 
-​	在 Mac OS X 下通过点击 Open Application Folder（Windows 操作系统对应 Exploer）按钮，打开 XAMPP 安装路径。在此目录中，可以看到一个名为 htdocs 的文件夹，将打包好的 web 项目放在此文件夹中，便可在局域网内通过 ip 地址访问到。
+	在 Mac OS X 下通过点击 Open Application Folder（Windows 操作系统对应 Exploer）按钮，打开 XAMPP 安装路径。在此目录中，可以看到一个名为 htdocs 的文件夹，将打包好的 web 项目放在此文件夹中，便可在局域网内通过 ip 地址访问到。
 
 ## js-tests 测试工程
 
-​	js-tests 位于 cocos2d-x/tests/ 文件夹下，它是 Cocos2d-JS 引擎的测试例子，也是一个非常好的学习资料。**需放在服务器下访问** 。
+	js-tests 位于 cocos2d-x/tests/ 文件夹下，它是 Cocos2d-JS 引擎的测试例子，也是一个非常好的学习资料。**需放在服务器下访问** 。
 
 ![](2c.png)
