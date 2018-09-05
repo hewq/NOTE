@@ -2,13 +2,11 @@
 
 ## Cocos Console
 
-`Cocos Console` 是 Cocos2d-x 引擎下的一个命令行工具，
-
-它用来管理 Cocos 工程，其中包含**创建、运行、编译、调试以及打包项目等**。
+`Cocos Console` 是 Cocos2d-x 引擎下的一个命令行工具，它用来管理 Cocos 工程，其中包含**创建、运行、编译、调试以及打包项目等**。
 
  	Cocos Console 位于引擎包 cocos2d-x/tools/cocos2d-console 目录下，通过运行引擎包目录下的 setup.py 脚本即可安装。
 
-在安装的过程中，Cocos Console 需要开发者提供 Android NDK、Android SDK 和 Apache ANT 的文件路径。
+在安装的过程中，Cocos Console 需要开发者提供 `Android NDK`、`Android SDK` 和 `Apache ANT` 的文件路径。
 
 	另外，Cocos Console 是一个采用 Python 语言编写的跨平台脚本工具，所以在安装 Cocos Console 之前，需要先安装好 Python。
 
