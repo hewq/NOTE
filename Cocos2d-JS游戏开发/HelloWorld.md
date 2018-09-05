@@ -2,7 +2,7 @@
 
 ## Cocos Console
 
-​	`Cocos Console` 是 Cocos2d-x 引擎下的一个命令行工具，
+	`Cocos Console` 是 Cocos2d-x 引擎下的一个命令行工具，
 
 它用来管理 Cocos 工程，其中包含**创建、运行、编译、调试以及打包项目等**。
 
@@ -10,7 +10,7 @@
 
 在安装的过程中，Cocos Console 需要开发者提供 Android NDK、Android SDK 和 Apache ANT 的文件路径。
 
-​	另外，Cocos Console 是一个采用 Python 语言编写的跨平台脚本工具，所以在安装 Cocos Console 之前，需要先安装好 Python。
+	另外，Cocos Console 是一个采用 Python 语言编写的跨平台脚本工具，所以在安装 Cocos Console 之前，需要先安装好 Python。
 
 ### 安装 Python
 
@@ -218,3 +218,41 @@ bool AppDelegate::applicationDidFinishLaunching () {
 在代码中 `sc->runScript("script/jsb_boot.js")` 运行了 jsb_boot.js 脚本，此脚本中同样读取 project.json 配置文件，然后 `ScriptingCore::getInstance()->runScript("main.js")` 运行 main.js 文件，从而进入游戏。
 
 > 说明：Native 即为原生操作系统平台，例如 iOS、Android、Mac OS X 等。总之，在 Cocos2d-JS 中，除了浏览器外，都可以称为 Native。
+
+## 项目在各平台下的打包以及部署
+
+### iOS 和 Mac OS X
+
+iOS 和 Mac OS X 上的工程文件用起来比较简单，在安装了 Xcode 的前提下，双击打开 frameworks/runtime-src/proj.ios_mac/projectName.xcodeproj 文件即可。值得说明的是，这个工程文件中集成了 iOS 和 Mac OS X 项目，你可以点击如下图所示的HelloWorld-mobile 按钮选择你所要的平台。
+
+![](2a.png)
+
+### Android
+
+在 Android 上，则需将 HelloWorld/frameworks/runtime-src/proj.android 导入到 Eclipse 中
+
+![](2b.png)
+
+### web 部署
+
+​	根据开发者的需求， web 项目的部署也可能完全不同。这里我们以模拟局域网为例，讲解如何使用 XAMPP 在局域网上部署 Cocos2d-JS Web 项目，这样可以方便开发者在开发过程中通过真机测试。
+
+​	XAMPP 是一款集成了 Cross-PlatForm(X)、Apache、MySQL、PHP 以及 Perl 的软件，安装完成后，便可以在个人电脑上搭建服务器环境。XAMPP 是多平台软件，所以它支持 Mac OS X、Windows、Linux 等操作系统。其安装步骤较为简单，下载完安装包之后，直接双击打开，然后一直 next 直到安装完毕即可。该软件的下载地址：[https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html) 。
+
+> 实际上，在终端调用命令 `python -m SimpleHTTPServer` ，也可以直接快速搭建 web 服务器
+>
+> ```shell
+> cocos new HelloJS -l js -d ./Desktop
+> cd ./Desktop/HelloJS/
+> python -m SimpleHTTPServer 8080
+> ```
+>
+> 其中，8080 为指定端口，可省略，默认为 8080 。
+
+​	在 Mac OS X 下通过点击 Open Application Folder（Windows 操作系统对应 Exploer）按钮，打开 XAMPP 安装路径。在此目录中，可以看到一个名为 htdocs 的文件夹，将打包好的 web 项目放在此文件夹中，便可在局域网内通过 ip 地址访问到。
+
+## js-tests 测试工程
+
+​	js-tests 位于 cocos2d-x/tests/ 文件夹下，它是 Cocos2d-JS 引擎的测试例子，也是一个非常好的学习资料。**需放在服务器下访问** 。
+
+![](2c.png)
