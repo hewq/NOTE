@@ -106,6 +106,7 @@
 - [动作模块](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E5%8A%A8%E4%BD%9C%E6%A8%A1%E5%9D%97.md)
 - [事件机制](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E4%BA%8B%E4%BB%B6%E6%9C%BA%E5%88%B6.md)
 - [音频处理](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E9%9F%B3%E9%A2%91%E5%A4%84%E7%90%86.md)
+- [屏幕适配](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E5%B1%8F%E5%B9%95%E9%80%82%E9%85%8D.md)
 
 ## English
 
