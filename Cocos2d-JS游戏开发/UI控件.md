@@ -228,3 +228,230 @@ ccui.TextAtlas 常用的函数：
 | String     | 无       | getString()      | 获取文本内容 |
 | 无         | String   | setString(value) | 设置文本内容 |
 
+## ccii.Button 按钮
+
+按钮（ccui.Button）可以响应回调函数，实现一些逻辑处理。按钮的处理方式也比较简单，创建代码如下：
+
+```javascript
+// 加载 按钮
+loadButton: function () {
+    var node = new ccui.Button();
+    this.addChild(node);
+    // 设置按钮 3 个状态（常态，按下，禁用）的纹理
+    // 也可以将 3 个状态放在构造函数中 new ccui.Button(res.u10_btn_start_normal_png, res.u10_btn_start_pressed_png, "");
+    node.loadTextures(res.u10_btn_start_normal_png, res.u10_btn_start_pressed_png, "");
+    node.setPosition(200, cc.winSize.height / 2);
+    // 设置按钮触摸，每一个按钮都需要开启手动触摸
+    node.setTouchEnabled(true);
+    // 添加事件监听器
+    node.addTouchEventListener(this.onButtonTouchEvent, this);
+}
+
+onButtonTouchEvent: function (sender, type) {
+    switch (type) {
+        case ccui.Widget.TOUCH_BEGAN: // 触摸（按下）
+            cc.log("Touch Down");
+            // sender：事件源，即按钮本身
+            sender.x += 100; // 按钮坐标右移 100
+            break;
+        case ccui.Widget.TOUCH_MOVED: // 触摸（移动）
+            cc.log("Touch Move");
+            break;
+        case ccui.Widget.TOUCH_ENDED: // 触摸（抬起）
+            cc.log("Touch Up");
+            break;
+        case ccui.Widget.TOUCH_CANCELED: // 触摸（取消）
+            cc.log("Touch Canceled");
+            break;
+        default:
+            break;
+    }
+}
+```
+
+ccui.Button 构造函数： ccui.Button(normalImage, selectedImage, disableImage, textType)
+
+| 参数          | 参数说明     |
+| ------------- | ------------ |
+| normalImage   | 常态纹理图片 |
+| selectedImage | 按下纹理图片 |
+| disableImage  | 禁用纹理图片 |
+| textType      | 纹理图片类型 |
+
+textType 可取值：
+
+- ccui.Widget.LOCAL_TEXTURE: 表示本地单张图片（小图）类型。
+- ccui.Widget.PLIST_TEXTURE: 表示精灵表单（大图）类型。
+
+ccui.Button 的 3 个状态的纹理也可以通过下面 API 设置：
+
+| 返回值类型 | 参数类型                       | 函数                                               | 说明                       |
+| ---------- | ------------------------------ | -------------------------------------------------- | -------------------------- |
+| 无         | String, String, String, Number | loadTextures(normal, selected, disabled, textType) | 加载按钮的纹理以及纹理类型 |
+| 无         | String, Number                 | loadTextureNormal(normal, textType)                | 加载按钮正常状态的纹理     |
+| 无         | String, Number                 | loadTexturePressed(selected, textType)             | 加载按钮选中状态的纹理     |
+| 无         | String, Number                 | loadTextureDisabled(disabled, textType)            | 加载按钮禁用状态的纹理     |
+
+ccui.Button 支持九宫格，可以通过以下 API 设置九宫格按钮。启用了九宫格按钮之后，可以通过 setContenSize 函数来设置按钮的大小。
+
+| 返回值类型 | 参数类型 | 函数                     | 说明                     |
+| ---------- | -------- | ------------------------ | ------------------------ |
+| Boolean    | 无       | isScale9Enabled()        | 判断按钮是否为九宫格模式 |
+| 无         | Boolean  | setScale9Enabled(enable) | 设置按钮为九宫格模式     |
+
+设置按钮的文本内容：
+
+| 返回值类型 | 参数类型 | 函数                       | 说明             |
+| ---------- | -------- | -------------------------- | ---------------- |
+| String     | 无       | getTitleText()             | 获取按钮文本内容 |
+| 无         | String   | setTitleText(text)         | 设置按钮文本内容 |
+| cc.Color   | 无       | getTitleColor()            | 获取按钮文本颜色 |
+| 无         | cc.Color | setTitleColor(color)       | 设置按钮文本颜色 |
+| cc.Size    | 无       | getTitleFontSize()         | 获取按钮文本字号 |
+| 无         | cc.Size  | setTitleFontSize(size)     | 设置按钮文本字号 |
+| String     | 无       | getTitleFontName()         | 获取按钮文本名字 |
+| 无         | String   | setTitleFontName(fontName) | 设置按钮文本名字 |
+
+ccui.Button 的缩放效果：
+
+| 返回值类型 | 参数类型 | 函数                             | 说明                           |
+| ---------- | -------- | -------------------------------- | ------------------------------ |
+| Number     | 无       | getZoomScale()                   | 获取一个缩放比例               |
+| 无         | Number   | setZoomScale(scale)              | 设置一个缩放比例               |
+| 无         | Boolean  | setPressedActionEnabled(enabled) | 设置启用按钮被按下时的缩放操作 |
+
+## ccui.CheckBox 复选框
+
+复选框（ccui.CheckBox）有选中和未选中这两种状态，可以为其添加事件监听器来响应事件从而处理对应的逻辑。在游戏中，复选框一般用在一些设置中，例如是否开启特效、是否接受组队邀请、是否接受系统推送等。创建一个 ccui.CheckBox 对象的代码如下：
+
+```javascript
+// 加载 checkbox
+loadCheckBox: function () {
+    var node = new ccui.CheckBox();
+    this.addChild(node);
+    node.loadTextures("res/unit10_ui/check_box_normal.png",
+                     "res/unit10_ui/check_box_normal_press.png",
+                     "res/unit10_ui/check_box_active.png",
+                     "res/unit10_ui/check_box_normal_disable.png",
+                     "res/unit10_ui/check_box_active_disable.png");
+    node.setTouchEnabled(true);
+    node.setPosition(cc.winSize.width / 2, cc.winSize.height / 2);
+    node.addEventListener(this.onCheckBoxSelectedEvent, this);
+}
+
+onCheckBoxSelectedEvent: function (sender, type) {
+    // ccui.CheckBox 可以响应两种类型的事件，分别是未选中 ccui.CheckBox.EVENT_UNSELECTED 和 ccui.CheckBox.EVENT_SELECTED
+    switch (type) {
+            case: ccui.CheckBox.EVENT_UNSELECTED:
+				cc.log("复选框没选中");
+            	break;
+            case: ccui.CheckBox.EVENT_SELECTED:
+            	cc.log("复选框选中");
+            	break;
+        default:
+            break;
+    }
+}
+```
+
+ccui.CheckBox 的相关纹理读取也可以放在构造函数中。
+
+构造函数： ccui.CheckBox(backGround, backGroundSelected, cross, backGroundDisabled, frontCrossDisabled, texType);
+
+| 参数               | 参数说明         |
+| ------------------ | ---------------- |
+| backGround         | 未选中常态纹理   |
+| backGroundSelected | 背景选中状态纹理 |
+| cross              | 勾选选中状态纹理 |
+| backGroundDisabled | 背景禁用状态纹理 |
+| frontCrossDisabled | 勾选禁用状态纹理 |
+| texType            | 纹理类型         |
+
+ccui.CheckBox 常用函数
+
+| 返回值类型 | 参数类型                                       | 函数                                                         | 说明                             |
+| ---------- | ---------------------------------------------- | ------------------------------------------------------------ | -------------------------------- |
+| 无         | String, String, String, String, String, Number | loadTextures(backGround, backGroundSelected, cross, backGroundDisabled, frontCrossDisabled, texType) | 加载相关状态纹理以及纹理类型     |
+| 无         | String, Number                                 | loadTextureBackGround(backGround, texType)                   | 加载未选中状态纹理以及纹理类型   |
+| 无         | String, Number                                 | loadTextureBackGroundSelected(backGroundSelected, texType)   | 加载背景选中状态纹理以及纹理类型 |
+| 无         | String, Number                                 | loadTextureFrontCross(cross, texType)                        | 加载选中状态纹理以及纹理类型     |
+| 无         | String, Number                                 | loadTextureBakcGroundDisabled(backGroundDisabled, texType)   | 加载背景禁用状态以及纹理类型     |
+| 无         | String, Number                                 | loadTextureBackGroundDisabled(backGroundDisabled, texType)   | 加载勾选禁用状态纹理以及纹理类型 |
+| Boolean    | 无                                             | isSelected()                                                 | 获取是否选中的结果               |
+| 无         | Boolean                                        | setSelected(selected)                                        | 设置是否选中                     |
+| 无         | Function, Object                               | addEventListener(selector, target)                           | 添加事件监听器                   |
+
+## ccui.Slider 滑块
+
+滑块（ccui.Slider）一般用来控制音量或者是调整屏幕暗度等。滑块控件由滑块控制点、滑块进度条和滑块背景组成，这意味着需要提供至少 3 张图片来创建一个 Slider 滑块控件。创建 Slider 滑块控件的代码如下：
+
+```javascript
+// 加载 滑块
+loadSlider: function () {
+    var slider = new ccui.Slieder();
+    this.addChild(slider);
+    // 加载滑块背景纹理，
+    slider.loadBarTexture("res/unit10_ui/slider_bar.png");
+    slider.loadSlidBallTextures("res/unit10_ui/slider_ball_normal.png",
+                               "res/unit10_ui/slider_ball_pressed.png",
+                               "res/unit10_ui/slider_ball_disabled.png");
+    // 加载滑块进度条
+    slider.loadProgressBarTexture("res/unit10_ui/slider_progress.png");
+    slider.setPosition(cc.winSize.width / 2, cc.winSize.height / 2);
+    // 添加一个事件监听器
+    slider.addEventListener(this.onSliderEvent, this);
+}
+
+onSliderEvent: function (sender, type) {
+    switch (type) {
+        case ccui.Slider.EVENT_PERCENt_CHANGED:
+            var percent = sender.getPercent();
+            cc.log("百分比：" + percent.toFixed(0)); // 取整输出
+            break;
+        default:
+            break;
+    }
+}
+```
+
+## ccui.ImageView 图片视图
+
+图片视图（ccui.ImageView）实际上就是一张单纯的图片，一般作为 UI 面板的背景图等，ccui.ImageView 的使用是所有 UI 控件中最简单的，其创建代码如下：
+
+```javascript
+// 加载 ImageView
+loadImageView: function () {
+    var node = new ccui.ImageView("res/node_256.png");
+    this.addChild(node);
+    node.setPosition(cc.winSize.width / 2, cc.winSize.height / 2);
+}
+```
+
+ccui.ImageView 常用函数：
+
+| 返回值类型 | 参数类型       | 函数                           | 说明                         |
+| ---------- | -------------- | ------------------------------ | ---------------------------- |
+| 无         | String, Number | loadTexture(fileName, texType) | 加载纹理图片以及纹理图片类型 |
+| 无         | cc.Rect        | setTextureRect(rect)           | 设置纹理区域                 |
+| 无         | Boolean        | setScale9Enabled(enable)       | 设置为九宫格                 |
+| Boolean    | 无             | isScale9Enabled()              | 获取是否为九宫格的结果       |
+
+## ccui.LoadingBar 加载条
+
+加载条（ccui.LoadingBar）也称为进度条，一般用来显示资源加载速度、网络资源下载进度或者怪物的血条等。
+
+创建一个 ccui.LoadingBar，仅需要一张图片即可，其代码如下：
+
+```javascript
+// 加载进度条
+loadLoadingBar: function () {
+    var node = new ccui.LoadingBar();
+    this.addChild(node);
+    node.loadTexture("res/unit10_ui/slider_progress.png");
+    node.setDirection(ccui.LoadingBar.TYPE_LEFT); // 设置方向
+    node.setPercent(10); // 设置百分比
+    node.setPosition(cc.winSize.width / 2, cc.winSize.height / 2);
+}
+```
+
+ccui.LoadingBar 的常用函数和 ccui.ImageView 的常用函数一样。
