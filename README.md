@@ -109,6 +109,7 @@
 - [屏幕适配](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E5%B1%8F%E5%B9%95%E9%80%82%E9%85%8D.md)
 - [数据存储](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8.md)
 - [粒子系统](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E7%B2%92%E5%AD%90%E7%B3%BB%E7%BB%9F.md)
+- [UI控件](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/UI%E6%8E%A7%E4%BB%B6.md)
 
 ## English
 
