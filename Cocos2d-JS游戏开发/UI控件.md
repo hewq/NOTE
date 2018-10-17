@@ -788,3 +788,192 @@ ccui.ScrollView 中跳跃相关 API：
 | 无         | Number   | jumpToPercentHorizontal(percent)    | 水平方向跳到指定百分比位置       |
 | 无         | Number   | jumpToPercentBothDirection(percent) | 竖直和水平方向跳到指定百分比位置 |
 
+## ccui.PageView 分页视图
+
+分页视图（ccui.PageView）也是直接继承自 ccui.Layout，与滚动视图不一样的是，分页视图将其内部的 UI 控件进行分页布局，每次只能显示一页，但是可以在多页之间进行切换。
+
+创建一个 ccui.PageView 的代码如下：
+
+```javascript
+// 加载 PageView
+loadPageView: function () {
+    var pageView = new ccui.PageView();
+    this.addChild(pageView);
+    pageView.setTouchEnabled(true);
+    pageView.setContentSize(cc.winSize);
+    pageView.x = (cc.winSize.width - pageView.width) / 2;
+    pageView.y = (cc.winSize.height - pageView.height) / 2;
+}
+```
+
+创建一个分页后，可以通过如下 API 给分页视图添加、删除和获取页面：
+
+| 返回值类型  | 参数类型                     | 函数                                          | 说明                           |
+| ----------- | ---------------------------- | --------------------------------------------- | ------------------------------ |
+| 无          | ccui.Layout                  | addPage(page)                                 | 往分页视图的最后插入一页       |
+| 无          | ccui.Widget, Number, Boolean | addWidgetToPage(widget, pageIdx, forceCreate) | 把一个 UI 控件添加到分页视图中 |
+| 无          | ccui.Layout, Number          | insertPage(page, index)                       | 在指定位置插入一页             |
+| 无          | ccui.Layout                  | removePage(page)                              | 移除一页                       |
+| 无          | Number                       | removePageAtIndex(index)                      | 移除指定位置的页               |
+| 无          | 无                           | removeAllPages()                              | 移除所有页                     |
+| Number      | 无                           | getCurPageIndex()                             | 获取当前显示页的索引号         |
+| Array       | 无                           | getPages()                                    | 获取所有页的列表               |
+| ccui.Layout | Number                       | getPage(index)                                | 获取指定页                     |
+| 无          | Number                       | scrollToPage(index)                           | 滚动到一个指定的页             |
+
+分页视图默认需要滑动到页面宽度大小一半的时候才会切换到下一页，但实际上，你可以设置这个滑动临界值，相关 API 如下：
+
+| 返回值类型 | 参数类型 | 函数                                | 说明                               |
+| ---------- | -------- | ----------------------------------- | ---------------------------------- |
+| 无         | Number   | setCustomScrollThreshold(threshold) | 设置自定义滚动临界值               |
+| Number     | 无       | getCustomScrollThreshold()          | 获取自定义滚动临界值               |
+| 无         | Boolean  | setUsingCustomScrollThreshold(flag) | 设置是否使用自定义滚动临界值       |
+| Boolean    | 无       | isUsingCustomScrollThreshold()      | 获取是否使用自定义滚动临界值的结果 |
+
+```javascript
+// 加载 PageView
+loadPageView: function () {
+    var pageView = new ccui.PageView();
+    for (var i = 0; i < 3; ++i) {
+        // 创建一个 layout 布局
+        var layout = new ccui.Layout();
+        // 把 ccui.Layout 对象添加到 pageView 分页视图中
+        pageView.addPage(layout);
+        
+        var imageView = new ccui.ImageView("res/unit07_design/background.png");
+        // 把 ccui.ImageView 对象添加到 ccui.Layout 中
+        layout.addChild(imageView);
+        imageView.x = pageView.width / 2;
+        imageView.y = pageView.height / 2;
+    }
+    // 添加事件监听器，当分页视图有滑动事件时，则会触发 ccui.PageView.EVENT_TURNING 事件
+    pageView.addEventListener(function(sender, type) {
+        switch (type) {
+            case ccui.PageView.EVENT_TURNING:
+                var index = pageView.getCurPageIndex() + 1;
+                cc.log("当前第" + index + "页");
+                break;
+            default:
+                break;
+        }
+    }, this);
+}
+```
+
+## ccui.ListView 列表视图
+
+列表视图（ccui.ListView）继承自 ccui.ScrollView，所以它同样具有滚动特性。列表视图容器中的 UI 控件以项（item）为单位，项可以基于某个模型，然后通过克隆的方式高效利用。
+
+另外需要说明的是，ccui.ListView 在创建元素的时候，如果元素个数非常多，需要考虑在移动 ListView 的过程中，动态调整项的位置来起到优化作用。比如，一个列表视图需要有 100 个项，但它一共可以显示 10 个项，此时可以多创建项，例如 12 个或者 15 个，然后在移动过程中去修改第 12 个项或者第 15 个项的位置以及其他属性。但倘若直接创建了 100 个项，那么将会非常消耗内存并且影响 ccui.ListView 的效率。
+
+```javascript
+// 加载 ListView
+loadListView: function () {
+    var listView = new ccui.ListView();
+    this.addChild(listView);
+    listView.setTouchEnabled(true);
+    listView.setContentSize(cc.size(240, 120));
+    listView.setDirection(ccui.ScrollView.DIR_HORIZONTAL);
+    listView.setBackGroundColor(cc.color(128, 128, 128));
+    listView.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
+    listView.x = (cc.winSize.width - listView.width) / 2;
+    listView.y = (cc.winSize.height - listView.height) / 2;
+}
+```
+
+ccui.ListView 中项操作的相关 API 如下：
+
+| 返回值类型 | 参数类型            | 函数                          | 说明                                                   |
+| ---------- | ------------------- | ----------------------------- | ------------------------------------------------------ |
+| 无         | ccui.Widget         | setItemModel(model)           | 设置项的模型                                           |
+| 无         | 无                  | pushBackDefaultItem()         | 插入一个默认项（通过克隆模式创建）到列表视图的尾部     |
+| 无         | Number              | insertDefaultItem(index)      | 插入一个默认项（通过克隆模式创建）到列表视图的指定位置 |
+| 无         | ccui.Widget         | pushBackCustomItem(item)      | 插入一个自定义项到列表视图的尾部                       |
+| 无         | ccui.Widget, Number | insertCustomItem(item, index) | 插入自定义 UI 控件到列表视图中指定索引处               |
+| 无         | Number              | removeItem(index)             | 删除给定索引的项                                       |
+| 无         | 无                  | removeLastItem()              | 删除最后一个项                                         |
+| 无         | 无                  | removeAllItems()              | 删除所有项                                             |
+| Number     | 无                  | getItem(index)                | 获取给定索引的项                                       |
+| Array      | 无                  | getItem()                     | 获取所有项                                             |
+| Number     | 无                  | getIndex(item)                | 获取指定项的索引                                       |
+| Number     | 无                  | getCurSelectedIndex()         | 获取当前所选项的索引                                   |
+
+设置项的模型后，将该模型作为一个蓝图，然后调用 pushBackDefaultItem 函数，将克隆出的新副本插入到列表视图中。
+
+在 ccui.ListView 中，还可以设置每个项之间的边距、对齐方式以及方向，相关 API 如下：
+
+| 返回值类型 | 参数类型 | 函数                   | 说明                 |
+| ---------- | -------- | ---------------------- | -------------------- |
+| Number     | 无       | getItemMargin()        | 获取每个项之间的边距 |
+| 无         | Number   | setItemsMargin(margin) | 设置每个项之间的边距 |
+| Number     | 无       | getGravity()           | 获取对齐方式         |
+| 无         | Number   | setGravity(gravity)    | 设置对齐方式         |
+| Number     | 无       | getDirection()         | 获取方向             |
+| 无         | Number   | setDirection(dir)      | 设置方向             |
+
+其中，方向的可取值和 ccui.ScrollView 一致。此外，ccui.ListView 还有一些刷新相关的 API：
+
+| 返回值类型 | 参数类型 | 函数                 | 说明               |
+| ---------- | -------- | -------------------- | ------------------ |
+| 无         | 无       | requestRefreshView() | 请求刷新视图和布局 |
+| 无         | 无       | refreshView()        | 刷新列表视图的视图 |
+| 无         | 无       | forceDoLayout()      | 强制刷新控件的布局 |
+| 无         | 无       | doLayout()           | 请求刷新控件的布局 |
+
+```javascript
+// 加载 ListView
+loadListView: function () {
+    var listView = new ccui.ListView();
+    // 创建按钮
+    var default_button = new ccui.Button();
+    default_button.setName("TextButton");
+    default_button.setTouchEnabled(true);
+    default_button.loadTexture("res/unit10_ui/btn_normal.png", "res/unit10_ui/btn_pressed.png", "");
+    // 创建默认模型
+    var default_item = new ccui.Layout();
+    default_item.addChild(default_button);
+    default_item.setTouchEnabled(true);
+    default_item.setContentSize(default_button.getContentSize());
+    default_item.x = default_item.width / 2;
+    default_item.y = default_item.height / 2;
+    // 设置模型
+    listView.setItemModel(default_item);
+    // 添加 4 个项
+    for (var i = 0; i < 4; ++i) {
+        listView.pushBackDefaultItem();
+    }
+    // 给前 4 个项设置文本标签
+    for (var i = 0; i < 4; i++) {
+        var item = listView.getItem(i);
+        var button = item.getChildByName("TextButton");
+        var index = listView.getIndex(item);
+        button.setTitleText("按钮" + i);
+    }
+}
+
+// 加载 ListView
+loadListView: function () {
+    // 创建 listView
+    var listView = new ccui.ListView();
+    this.addChild(listView);
+    listView.setTouchEnabled(true);
+    listView.setContentSize(cc.size(240, 120));
+    listView.setDirection(ccui.ScrollView.DIR_HORIZONTAL);
+    listView.setBackGroundColor(cc.color(128, 128, 128));
+    listView.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
+    listView.x = (cc.winSize.width - listView.width) / 2;
+    listView.y = (cc.winSzie.height - listView.height) / 2;
+    listView.addEventListener(function (sender, type) {
+        switch (type) {
+            case ccui.ListView.EVNET_SELECTED_ITEM:
+                cc.log("当前项索引：" + sender.getCurSelectedIndex());
+                break;
+            default:
+                break;
+        }
+    }, this);
+}
+```
+
+
+
