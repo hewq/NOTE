@@ -100,6 +100,8 @@
 
 ## Cocos2d-JS 游戏开发（《Cocos2d-JS游戏开发》凌建风 著）
 
+> [保卫萝卜](https://github.com/hewq/Cocos2d-JS/tree/master/Carrot)
+
 - [Cocos2d-JS 介绍](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/Cocos2d-JS%E4%BB%8B%E7%BB%8D.md)
 - [HelloWorld](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/HelloWorld.md)
 - [核心框架](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E6%A0%B8%E5%BF%83%E6%A1%86%E6%9E%B6.md)
