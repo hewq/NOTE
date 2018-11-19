@@ -228,7 +228,7 @@ ccui.TextAtlas 常用的函数：
 | String     | 无       | getString()      | 获取文本内容 |
 | 无         | String   | setString(value) | 设置文本内容 |
 
-## ccii.Button 按钮
+## ccui.Button 按钮
 
 按钮（ccui.Button）可以响应回调函数，实现一些逻辑处理。按钮的处理方式也比较简单，创建代码如下：
 
@@ -759,7 +759,7 @@ ccui.ScrollView 中滚动相关 API：
 | 返回值类型 | 参数类型                | 函数                                                    | 说明                                     |
 | ---------- | ----------------------- | ------------------------------------------------------- | ---------------------------------------- |
 | 无         | Number, Boolean         | scrollToBottom(time, attenuated)                        | 滚动到滚动视图的底部                     |
-| 无         | Number, Boolean         | scroollToTop(time, attenuated)                          | 滚动到滚动视图的顶部                     |
+| 无         | Number, Boolean         | scrollToTop(time, attenuated)                           | 滚动到滚动视图的顶部                     |
 | 无         | Number, Boolean         | scrollToLeft(time, attenuated)                          | 滚动到视图的左端                         |
 | 无         | Number, Boolean         | scrollToRight(time, attenuated)                         | 滚动到视图的右端                         |
 | 无         | Number, Boolean         | scrollToTopLeft(time, attenuated)                       | 滚动到视图的左上角                       |

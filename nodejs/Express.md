@@ -47,7 +47,7 @@ app.use(express.static('files'));
 app.use('/public/', express.static('./public/'));
 
 // 可以给／public／起别名
-app.user('/static/', express.static('./public/'));
+app.use('/static/', express.static('./public/'));
 
 // 当省略第一个参数时，则可以通过省略./public直接访问
 app.use(express.static('./public/'));
