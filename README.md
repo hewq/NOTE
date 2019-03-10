@@ -1,13 +1,25 @@
 # 笔记目录
 
-## CreateJs
+- <a href="1">CreateJs</a>
+- <a href="2">EaselJs</a>
+- <a href="#3">NodeJs</a>
+- <a hre="#4">Photoshop</a>
+- <a href="5">Summary</a>
+- <a href="6">Webpack </a>
+- <a href="7">Mini Program</a>
+- <a href="8">H5动画与游戏开发</a>
+- <a href="9">Cocos2d-JS 游戏开发</a>
+- <a href="10">English</a>
+- <a href="11">ECMAScript 6</a>
+
+## <a name="1">CreateJs</a>
 
 * [CreateJs 简介](https://github.com/hewq/NOTE/blob/master/CreateJs/CreateJs%E7%AE%80%E4%BB%8B.md)
-### EaselJs
+### <a name="2">EaselJs</a>
 
 * [EaselJs 绘制图片、遮罩、canvas 转 base64](https://github.com/hewq/NOTE/blob/master/CreateJs/EaselJs/EaselJs%E7%BB%98%E5%88%B6%E5%9B%BE%E7%89%87%EF%BC%8C%E9%81%AE%E7%BD%A9%EF%BC%8Ccanvas%E8%BD%ACbase64.md#easeljs%E7%BB%98%E5%88%B6%E5%9B%BE%E7%89%87%E9%81%AE%E7%BD%A9canvas%E8%BD%ACbase64)
 * [EaselJs 绘图流程](https://github.com/hewq/NOTE/blob/master/CreateJs/EaselJs/EaselJs%E7%BB%98%E5%9B%BE%E5%9F%BA%E7%A1%80.md)
-## NodeJs(学习资源：[黑马程序员](itheima.com))
+## <a name="3">NodeJs</a>(学习资源：[黑马程序员](itheima.com))
 
 * [Node.js 介绍](https://github.com/hewq/NOTE/blob/master/nodejs/nodejs%E4%BB%8B%E7%BB%8D.md)
 * [读取文件](https://github.com/hewq/NOTE/blob/master/nodejs/%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6.md)
@@ -33,7 +45,7 @@
 * [node 中的其他成员](https://github.com/hewq/NOTE/blob/master/nodejs/node%E4%B8%AD%E7%9A%84%E5%85%B6%E4%BB%96%E6%88%90%E5%91%98.md)
 * [中间件](https://github.com/hewq/NOTE/blob/master/nodejs/%E4%B8%AD%E9%97%B4%E4%BB%B6.md)
 
-## Photoshop(学习资源：[黑马程序员](itheima.com))
+## <a name="4">Photoshop</a>(学习资源：[黑马程序员](itheima.com))
 
 * [PS基础](https://github.com/hewq/NOTE/blob/master/Photoshop/PS%E5%9F%BA%E7%A1%80.md)
 * [PS快捷键](https://github.com/hewq/NOTE/blob/master/Photoshop/PS%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
@@ -50,21 +62,21 @@
 * [选框的基础认识](https://github.com/hewq/NOTE/blob/master/Photoshop/%E9%80%89%E6%A1%86%E7%9A%84%E5%9F%BA%E7%A1%80%E8%AE%A4%E8%AF%86.md)
 * [选框的精确绘制](https://github.com/hewq/NOTE/blob/master/Photoshop/%E9%80%89%E6%A1%86%E7%9A%84%E7%B2%BE%E7%A1%AE%E7%BB%98%E5%88%B6.md)
 
-## Summary
+## <a name="5">Summary</a>
 
 * [20180426](https://github.com/hewq/NOTE/blob/master/summary/20180426.md)
 * [20180521](https://github.com/hewq/NOTE/blob/master/summary/20180521.md)
 * [20180614](https://github.com/hewq/NOTE/blob/master/summary/20180614.md)
 * [20180627](https://github.com/hewq/NOTE/blob/master/summary/20180627.md)
 
-## Webpack (学习资源： [webpack中文网](https://www.webpackjs.com/))
+## <a name="6">Webpack </a>(学习资源： [webpack中文网](https://www.webpackjs.com/))
 
 * [管理资源](https://github.com/hewq/NOTE/blob/master/webpack/%E7%AE%A1%E7%90%86%E8%B5%84%E6%BA%90.md)
 * [管理输出](https://github.com/hewq/NOTE/blob/master/webpack/%E7%AE%A1%E7%90%86%E8%BE%93%E5%87%BA.md)
 * [ 开发](https://github.com/hewq/NOTE/blob/master/webpack/%E5%BC%80%E5%8F%91.md)
 * [生产环境构建](https://github.com/hewq/NOTE/blob/master/webpack/%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%9E%84%E5%BB%BA.md)
 
-## Mini Program
+## <a name="7">Mini Program</a>
 
 - [微信小程序代码构成](https://github.com/hewq/NOTE/blob/master/miniprograms/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%A0%81%E6%9E%84%E6%88%90.md)
 - [小程序能力](https://github.com/hewq/NOTE/blob/master/miniprograms/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%83%BD%E5%8A%9B.md)
@@ -77,7 +89,7 @@
   - [媒体组件](https://github.com/hewq/NOTE/blob/master/miniprograms/%E5%AA%92%E4%BD%93%E7%BB%84%E4%BB%B6.md)
 - [案例](https://github.com/hewq/NOTE/blob/master/miniprograms/%E6%A1%88%E4%BE%8B.md)
 
-## H5动画与游戏开发(by [河北师范大学](https://github.com/edu2act/course-H5-Animation-and-Game-Development))
+## <a name="8">H5动画与游戏开发</a>(by [河北师范大学](https://github.com/edu2act/course-H5-Animation-and-Game-Development))
 
 - [概述--Canvas、SVG、WebGL](https://github.com/hewq/NOTE/blob/master/H5%E5%8A%A8%E7%94%BB%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E6%A6%82%E8%BF%B0--Canvas%E3%80%81SVG%E3%80%81WebGL.md)
 - [H5Canvas基础](https://github.com/hewq/NOTE/blob/master/H5%E5%8A%A8%E7%94%BB%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/H5Canvas%E5%9F%BA%E7%A1%80.md)
@@ -98,7 +110,7 @@
   - [性能优化](https://github.com/hewq/NOTE/blob/master/H5%E5%8A%A8%E7%94%BB%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.md)
   - [绘图框架](https://github.com/hewq/NOTE/blob/master/H5%E5%8A%A8%E7%94%BB%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E7%BB%98%E5%9B%BE%E6%A1%86%E6%9E%B6.md)
 
-## Cocos2d-JS 游戏开发（《Cocos2d-JS游戏开发》凌建风 著）
+## <a name="9">Cocos2d-JS 游戏开发</a>（《Cocos2d-JS游戏开发》凌建风 著）
 
 > [保卫萝卜](https://github.com/hewq/Cocos2d-JS/tree/master/Carrot)
 
@@ -113,7 +125,7 @@
 - [粒子系统](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E7%B2%92%E5%AD%90%E7%B3%BB%E7%BB%9F.md)
 - [UI控件](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/UI%E6%8E%A7%E4%BB%B6.md)
 
-## English
+## <a name="10">English</a>
 
 - 焦糖英语日日读-7期
   - [邂逅顶级大餐](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180515.md)
@@ -131,7 +143,7 @@
   - [大声说爱](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180529.md)
   - [尬局的正确打开方式](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180530.md)
 
-## ECMAScript 6 （[《ECMAScript 6 入门》阮一峰](http://es6.ruanyifeng.com/#README)）
+## <a name="11">ECMAScript 6 </a>（[《ECMAScript 6 入门》阮一峰](http://es6.ruanyifeng.com/#README)）
 
 - [简介](https://github.com/hewq/NOTE/blob/master/ECMAScript6/%E7%AE%80%E4%BB%8B.md)
 
