@@ -1,16 +1,16 @@
 # 笔记目录
 
-- <a href="1">CreateJs</a>
-- <a href="2">EaselJs</a>
+- <a href="#1">CreateJs</a>
+- <a href="#2">EaselJs</a>
 - <a href="#3">NodeJs</a>
 - <a href="#4">Photoshop</a>
-- <a href="5">Summary</a>
-- <a href="6">Webpack </a>
-- <a href="7">Mini Program</a>
-- <a href="8">H5动画与游戏开发</a>
-- <a href="9">Cocos2d-JS 游戏开发</a>
-- <a href="10">English</a>
-- <a href="11">ECMAScript 6</a>
+- <a href="#5">Summary</a>
+- <a href="#6">Webpack </a>
+- <a href="#7">Mini Program</a>
+- <a href="#8">H5动画与游戏开发</a>
+- <a href="#9">Cocos2d-JS 游戏开发</a>
+- <a href="#10">English</a>
+- <a href="#11">ECMAScript 6</a>
 
 ## <a name="1">CreateJs</a>
 
