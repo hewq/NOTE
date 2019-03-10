@@ -3,7 +3,7 @@
 - <a href="1">CreateJs</a>
 - <a href="2">EaselJs</a>
 - <a href="#3">NodeJs</a>
-- <a hre="#4">Photoshop</a>
+- <a href="#4">Photoshop</a>
 - <a href="5">Summary</a>
 - <a href="6">Webpack </a>
 - <a href="7">Mini Program</a>
