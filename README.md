@@ -147,6 +147,10 @@
 
 - [简介](https://github.com/hewq/NOTE/blob/master/ECMAScript6/%E7%AE%80%E4%BB%8B.md)
 
+- [let 和 const 命令](https://github.com/hewq/NOTE/blob/master/ECMAScript6/let%E5%92%8Cconst%E5%91%BD%E4%BB%A4.md)
+
+- 
+
   
 
 
