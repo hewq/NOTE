@@ -243,7 +243,7 @@ func6();
 
 [code](https://github.com/hewq/ECMAScript6/blob/master/apps/n02letconst/let02.js)
 
-## 块级作用域
+## <a name="2">块级作用域</a>
 
 ### 为什么需要块级作用域
 
@@ -496,7 +496,7 @@ if (true)
 
 [code](https://github.com/hewq/ECMAScript6/blob/master/apps/n02letconst/let03.js)
 
-## const 命令
+## <a name="3">const 命令</a>
 
 ### 基本用法
 
@@ -594,7 +594,7 @@ console.log(bar.prop);
 
 上面代码中，常量`bar`指向一个冻结的对象，所以新属性不起作用，严格模式下会报错。
 
-除了将对象本身冻结，对象的属性也应该冻结。
+除了将对象本身冻结，对象的属性也应该冻结。下面是一个将对象彻底冻结的函数。
 
 ```javascript
 var constantize = (obj) => {
@@ -608,4 +608,89 @@ var constantize = (obj) => {
 ```
 
 [code](https://github.com/hewq/ECMAScript6/blob/master/apps/n02letconst/let05.js)
+
+### ES6 声明变量的六种方法
+
+ES5 只有两种声明变量的方法：`var`命令和`function`命令。ES6 除了添加`let`和`const`命令，另外还有两种声明变量的方法：`import`命令和`class`命令。所以，ES6 一共有 6 种声明变量的方法。
+
+## <a name="4">顶层对象的属性</a>
+
+顶层对象，在浏览器环境指的是`window`对象，在`Node`指的是`global`对象。ES5 之中，顶层对象的属性与全局变量是等价的。
+
+```javascript
+// 浏览器环境
+window.a = 1;
+console.log(a); // 1
+
+a = 2;
+console.log(window.a); // 2
+```
+
+上面代码中，顶层对象的属性赋值与全局变量的赋值，是同一件事。
+
+顶层对象的属性与全局变量挂钩，被认为是 JavaScript 语言最大的设计败笔之一。这样的设计带来了几个很大的问题，首先是没法在编译时就报出变量为声明的错误。只有运行时才知道（因为全局变量可能是顶层对象的属性创造的，而属性的创造是动态的）；其次，程序员很容易不知不觉地就创建了全局变量（比如打字出错）；最后，顶层对象的属性是到处可以读写的，这非常不利于模块化编程。另一个方面，`windowWeb Worker`对象有实体含义，指的是浏览器的窗口对象，顶层对象是一个有实体含义的对象，也是不合适的。
+
+ES6 为了改变这一点，一方面规定，`var`和`function`命令声明的全局变量，依旧是顶层对象的属性，而`let`、`const`和`class`声明的全局变量，不属于顶层对象的属性。也就是说，从 ES6 开始，全局变量逐渐与顶层对象的属性脱钩。
+
+```javascript
+var a = 1;
+// 如果在 Node 的 REPL 环境，可以写成 global.a
+// 或者采用通用方法，写成 this.a
+console.log(window.a); // 1
+
+let b = 1;
+window.b; // undefined
+```
+
+上面代码中，全局变量`a`由`var`命令声明，所以它是顶层对象属性；全局变量`b`由`let`命令声明，所以它不是顶层对象的属性，返回`undefined`。
+
+## <a name="5">global 对象</a>
+
+ES5 的顶层对象，本身也是一个问题，因为它在各种实现里面是不统一的。
+
+- 浏览器里面，顶层对象是`window`，但 Node 和 Web Worker 没有 `window`。
+- 浏览器和 Web Worker 里面，`self`也指向顶层对象，但是 Node 没有 `self`。
+- Node 里面，顶层对象是`global`，但其他环境都不支持。
+
+同一段代码为了能够在各种环境中都能取到顶层对象，现在一般是使用`this`变量，但是有局限性。
+
+- 全局环境中，`this`会返回顶层对象。但是，Node 模块和 ES6 模块中，`this`返回的是当前模块。
+- 函数里面的`this`，如果函数不是作为对象的方法运行，而是单纯作为函数运行，`this`会指向顶层对象。但是，严格模式下，这`this`会返回`undefined`。
+- 不管是严格模式还是普通模式，`new Function('return this')()`，总是会返回全局对象。但是，如果浏览器用了 CSP （Content Security Policy，内容安全策略），那么`eval`、`new Function`这些方法都可能无法使用。
+
+综上所述，很难找到一种方法，可以在所有情况下，都取到顶层对象。下面是两种勉强可以使用的方法。
+
+```javascript
+var getGlobal = function () {
+	if (typeof self !== 'undefined') { return self; }
+	if (typeof window !== 'undefined') { return window; }
+	if (typeof global !== 'undefined') { return global; }
+	throw new Error('unable to locate global object');
+}
+```
+
+现在有一个提案，在语言标准的层面，引入`global`作为顶层对象。也就是说，在所有环境下，`global`都是存在的，都可以从它拿到顶层对象。
+
+垫片库`system.global`模拟了这个提案，可以在所有环境拿到`global`。
+
+```javascript
+// CommonJS 的写法
+require('system.global/shim')();
+
+// ES6 模块的写法
+import shim from 'system.global/shim'; shim();
+```
+
+上面代码可以保证各种环境里面，`global`对象都是存在的。
+
+```javascript
+// CommonJS 的写法
+var global = require('system.global')();
+
+// ES6 模块的写法
+import getGlobal from 'system.global';
+const global = getGlobal();
+```
+
+上面代码将顶层对象放入变量`global`。
 
