@@ -149,7 +149,7 @@
 
 - [let 和 const 命令](https://github.com/hewq/NOTE/blob/master/ECMAScript6/let%E5%92%8Cconst%E5%91%BD%E4%BB%A4.md)
 
-- 
+- [变量的解构赋值](https://github.com/hewq/NOTE/blob/master/ECMAScript6/%E5%8F%98%E9%87%8F%E7%9A%84%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.md)
 
   
 
