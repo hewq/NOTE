@@ -155,6 +155,8 @@
 
 - [正则的扩展](https://github.com/hewq/NOTE/blob/master/ECMAScript6/%E6%AD%A3%E5%88%99%E7%9A%84%E6%89%A9%E5%B1%95.md)
 
+- [数值的扩展](https://github.com/hewq/NOTE/blob/master/ECMAScript6/%E6%95%B0%E5%80%BC%E7%9A%84%E6%89%A9%E5%B1%95.md)
+
   
 
 
