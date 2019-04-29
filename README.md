@@ -161,7 +161,7 @@
 
 ## Vue
 
-- [准备开始]([https://github.com/hewq/NOTE/blob/master/Vue/%E5%87%86%E5%A4%87%E5%BC%80%E5%A7%8B.md](https://github.com/hewq/NOTE/blob/master/Vue/准备开始.md))
+- [准备开始](https://github.com/hewq/NOTE/blob/master/Vue/%E5%87%86%E5%A4%87%E5%BC%80%E5%A7%8B.md)
 
 
 
