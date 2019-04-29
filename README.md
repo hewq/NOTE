@@ -159,7 +159,9 @@
 
 - [函数的扩展](https://github.com/hewq/NOTE/blob/master/ECMAScript6/%E5%87%BD%E6%95%B0%E7%9A%84%E6%89%A9%E5%B1%95.md)
 
-  
+## Vue
+
+- [准备开始]([https://github.com/hewq/NOTE/blob/master/Vue/%E5%87%86%E5%A4%87%E5%BC%80%E5%A7%8B.md](https://github.com/hewq/NOTE/blob/master/Vue/准备开始.md))
 
 
 
