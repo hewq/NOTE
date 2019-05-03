@@ -19,7 +19,7 @@
 
 * [EaselJs 绘制图片、遮罩、canvas 转 base64](https://github.com/hewq/NOTE/blob/master/CreateJs/EaselJs/EaselJs%E7%BB%98%E5%88%B6%E5%9B%BE%E7%89%87%EF%BC%8C%E9%81%AE%E7%BD%A9%EF%BC%8Ccanvas%E8%BD%ACbase64.md#easeljs%E7%BB%98%E5%88%B6%E5%9B%BE%E7%89%87%E9%81%AE%E7%BD%A9canvas%E8%BD%ACbase64)
 * [EaselJs 绘图流程](https://github.com/hewq/NOTE/blob/master/CreateJs/EaselJs/EaselJs%E7%BB%98%E5%9B%BE%E5%9F%BA%E7%A1%80.md)
-## <a name="3">NodeJs</a>(学习资源：[黑马程序员](itheima.com))
+## <a name="3">NodeJs</a>
 
 * [Node.js 介绍](https://github.com/hewq/NOTE/blob/master/nodejs/nodejs%E4%BB%8B%E7%BB%8D.md)
 * [读取文件](https://github.com/hewq/NOTE/blob/master/nodejs/%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6.md)
@@ -45,7 +45,7 @@
 * [node 中的其他成员](https://github.com/hewq/NOTE/blob/master/nodejs/node%E4%B8%AD%E7%9A%84%E5%85%B6%E4%BB%96%E6%88%90%E5%91%98.md)
 * [中间件](https://github.com/hewq/NOTE/blob/master/nodejs/%E4%B8%AD%E9%97%B4%E4%BB%B6.md)
 
-## <a name="4">Photoshop</a>(学习资源：[黑马程序员](itheima.com))
+## <a name="4">Photoshop</a>
 
 * [PS基础](https://github.com/hewq/NOTE/blob/master/Photoshop/PS%E5%9F%BA%E7%A1%80.md)
 * [PS快捷键](https://github.com/hewq/NOTE/blob/master/Photoshop/PS%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
@@ -69,7 +69,7 @@
 * [20180614](https://github.com/hewq/NOTE/blob/master/summary/20180614.md)
 * [20180627](https://github.com/hewq/NOTE/blob/master/summary/20180627.md)
 
-## <a name="6">Webpack </a>(学习资源： [webpack中文网](https://www.webpackjs.com/))
+## <a name="6">Webpack </a>
 
 * [管理资源](https://github.com/hewq/NOTE/blob/master/webpack/%E7%AE%A1%E7%90%86%E8%B5%84%E6%BA%90.md)
 * [管理输出](https://github.com/hewq/NOTE/blob/master/webpack/%E7%AE%A1%E7%90%86%E8%BE%93%E5%87%BA.md)
