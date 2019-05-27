@@ -9,7 +9,6 @@
 - <a href="#7">Mini Program</a>
 - <a href="#8">H5动画与游戏开发</a>
 - <a href="#9">Cocos2d-JS 游戏开发</a>
-- <a href="#10">English</a>
 - <a href="#11">ECMAScript 6</a>
 
 ## <a name="1">CreateJs</a>
@@ -124,24 +123,6 @@
 - [数据存储](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8.md)
 - [粒子系统](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E7%B2%92%E5%AD%90%E7%B3%BB%E7%BB%9F.md)
 - [UI控件](https://github.com/hewq/NOTE/blob/master/Cocos2d-JS%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/UI%E6%8E%A7%E4%BB%B6.md)
-
-## <a name="10">English</a>
-
-- 焦糖英语日日读-7期
-  - [邂逅顶级大餐](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180515.md)
-  - [犀利美食家](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180516.md)
-  - [营养餐食推荐](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180517.md)
-  - [情迷西式特色](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180518.md)
-  - [舌尖上的东东西西](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180519.md)
-  - [买买买的日常](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180521.md)
-  - [衣服穿搭](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180522.md)
-  - [颜值的秘密](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180523.md)
-  - [“发”出魔力](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180524.md)
-  - [风情万种的小心思](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180525.md)
-  - [漂亮的小姐姐](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180526.md)
-  - [“勾搭”的艺术](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180528.md)
-  - [大声说爱](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180529.md)
-  - [尬局的正确打开方式](https://github.com/hewq/NOTE/blob/master/English/%E7%84%A6%E7%B3%96%E8%8B%B1%E8%AF%AD%E6%97%A5%E6%97%A5%E8%AF%BB-7%E6%9C%9F/20180530.md)
 
 ## <a name="11">ECMAScript 6 </a>（[《ECMAScript 6 入门》阮一峰](http://es6.ruanyifeng.com/#README)）
 
