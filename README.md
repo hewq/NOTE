@@ -134,6 +134,7 @@
 - [数值的扩展](https://github.com/hewq/NOTE/blob/master/ECMAScript6/%E6%95%B0%E5%80%BC%E7%9A%84%E6%89%A9%E5%B1%95.md)
 - [函数的扩展](https://github.com/hewq/NOTE/blob/master/ECMAScript6/%E5%87%BD%E6%95%B0%E7%9A%84%E6%89%A9%E5%B1%95.md)
 - [数组的扩展]([https://github.com/hewq/NOTE/blob/master/ECMAScript6/%E6%95%B0%E7%BB%84%E7%9A%84%E6%89%A9%E5%B1%95.md](https://github.com/hewq/NOTE/blob/master/ECMAScript6/数组的扩展.md))
+- [对象的扩展]([https://github.com/hewq/NOTE/blob/master/ECMAScript6/%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%89%A9%E5%B1%95.md](https://github.com/hewq/NOTE/blob/master/ECMAScript6/对象的扩展.md))
 
 ## Vue
 
