@@ -1,5 +1,7 @@
 # let 和 const 命令
 
+> [原创链接](http://es6.ruanyifeng.com/#docs/let)
+
 - <a href="#1">let 命令</a>
 - <a href="#2">块级作用域</a>
 - <a href="#3">const 命令</a>
