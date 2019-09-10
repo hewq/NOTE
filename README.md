@@ -136,6 +136,7 @@
 - [数组的扩展](https://github.com/hewq/NOTE/blob/master/ECMAScript6/数组的扩展.md)
 - [对象的扩展](https://github.com/hewq/NOTE/blob/master/ECMAScript6/对象的扩展.md)
 - [对象的新增方法](https://github.com/hewq/NOTE/blob/master/ECMAScript6/对象的新增方法.md)
+- [Symbol](https://github.com/hewq/NOTE/blob/master/ECMAScript6/Symbol.md)
 
 ## Vue
 
