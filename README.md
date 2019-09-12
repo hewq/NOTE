@@ -137,6 +137,7 @@
 - [对象的扩展](https://github.com/hewq/NOTE/blob/master/ECMAScript6/对象的扩展.md)
 - [对象的新增方法](https://github.com/hewq/NOTE/blob/master/ECMAScript6/对象的新增方法.md)
 - [Symbol](https://github.com/hewq/NOTE/blob/master/ECMAScript6/Symbol.md)
+- [Set 和 Map 数据结构]([https://github.com/hewq/NOTE/blob/master/ECMAScript6/Set%E5%92%8CMap%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md](https://github.com/hewq/NOTE/blob/master/ECMAScript6/Set和Map数据结构.md))
 
 ## Vue
 
