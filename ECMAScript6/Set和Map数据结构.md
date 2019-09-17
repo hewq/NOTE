@@ -1,5 +1,7 @@
 # Set 和 Map 结构
 
+> [原创链接](http://es6.ruanyifeng.com/#docs/set-map)
+
 - <a href="#1">Set</a>
 - <a href="#2">WeakSet</a>
 - <a href="#3">Map</a>
